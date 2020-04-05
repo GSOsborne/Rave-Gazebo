@@ -25,6 +25,18 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="DSPRack1" ID="{DB5CB9E2-D04D-4351-84EF-202A9BC8E4EB}">
+									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="BypassEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<ObjectRef Name="CC17LowPass" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -53,13 +65,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Bus Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}">
-													<ReferenceList>
-														<Reference Name="Effect0" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
-															<ObjectRef Name="SidechainedByRTPC" ID="{6BC3B594-D361-4590-8E67-CF29D1FFB01E}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
-														</Reference>
-													</ReferenceList>
-												</Bus>
 												<Bus Name="Layers" ID="{9741053C-A102-463B-94FB-5D4865A453D3}">
 													<PropertyList>
 														<Property Name="BypassEffect0" Type="bool">
@@ -102,6 +107,13 @@
 															</CustomState>
 														</CustomStateList>
 													</StateInfo>
+												</Bus>
+												<Bus Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}">
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<ObjectRef Name="SidechainedByRTPC" ID="{6BC3B594-D361-4590-8E67-CF29D1FFB01E}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+														</Reference>
+													</ReferenceList>
 												</Bus>
 											</ChildrenList>
 											<StateInfo>

@@ -73,10 +73,6 @@
 					<ShortName>#20Flat.mid</ShortName>
 					<Path>SFX\#20Flat_00000000.wem</Path>
 				</File>
-				<File Id="148469304" Language="SFX">
-					<ShortName>#20Triangle.mid</ShortName>
-					<Path>SFX\#20Triangle_00000000.wem</Path>
-				</File>
 				<File Id="163792164" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
 					<Path>SFX\#19Flat_00000000.wem</Path>
@@ -108,6 +104,10 @@
 				<File Id="249448556" Language="SFX">
 					<ShortName>DavisDnB_Dholak_Layer4.wav</ShortName>
 					<Path>SFX\DavisDnB_Dholak_Layer4_8956FC97.wem</Path>
+				</File>
+				<File Id="249948265" Language="SFX">
+					<ShortName>#20Flat.mid</ShortName>
+					<Path>SFX\#20Flat_00000000.wem</Path>
 				</File>
 				<File Id="256316505" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
@@ -289,6 +289,10 @@
 					<ShortName>#20RampUp.mid</ShortName>
 					<Path>SFX\#20RampUp_00000000.wem</Path>
 				</File>
+				<File Id="738578152" Language="SFX">
+					<ShortName>#20Flat.mid</ShortName>
+					<Path>SFX\#20Flat_00000000.wem</Path>
+				</File>
 				<File Id="749116649" Language="SFX">
 					<ShortName>#16Triangle.mid</ShortName>
 					<Path>SFX\#16Triangle_00000000.wem</Path>
@@ -376,10 +380,6 @@
 				<File Id="974348426" Language="SFX">
 					<ShortName>#18RampUp.mid</ShortName>
 					<Path>SFX\#18RampUp_00000000.wem</Path>
-				</File>
-				<File Id="983661850" Language="SFX">
-					<ShortName>#20RampUp.mid</ShortName>
-					<Path>SFX\#20RampUp_00000000.wem</Path>
 				</File>
 				<File Id="984662156" Language="SFX">
 					<ShortName>Funk_SnareMIDI.mid</ShortName>

@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Builds/Feb6_HypnoSquares.apk
+C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Builds/March1_WallBursticles.apk
 SceneListBegin?
 Assets/Scenes/DavisDnB.unity
 SceneListEnd?
@@ -25,7 +25,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.G
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 fb6fbda121d17c03aa85a449ce8e4f22 Assembly-CSharp.dll:.OculusSpatializerUnity
-b2ac2655134b3d41a1321d2a9dcd52f8 Assembly-CSharp.dll:.FakeDSPTrigger
+8be7ee6ac4b834eda3ba9d0361d4cb7a Assembly-CSharp.dll:.FakeDSPTrigger
 e4c511fcf31a39b6e614595be7309046 Assembly-CSharp.dll:.LipSyncDemo_Control
 eab5bd3b00133e5da9183176b8ee43ac Oculus.VR.dll:.OVRGazePointer
 ee064a1c4ba1f660af1c5b892fd2512c Assembly-CSharp.dll:.PlayerController
@@ -162,7 +162,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 801fffe42aad4bba39f2cc5c4568786c Assembly-CSharp.dll:.AkEnvironment
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-66cae0b5724e74f7271624fbc0fa6a38 Assembly-CSharp.dll:.DavisDnB_AudioManager
+387192acb95ca2d0afd1be06eb949443 Assembly-CSharp.dll:.DavisDnB_AudioManager
 caf27b6b72eb1c27445495431511c61a Oculus.VR.dll:.OVRControllerHelper
 71bb6a6b6c8f052f948db64c7dd3ca4f Oculus.VR.dll:.OVRResources
 9337d9b49ef69a8f6b3c9e840a9d2fe6 Assembly-CSharp.dll:OculusSampleFramework.GrabbableCrosshair
@@ -198,7 +198,7 @@ d170ea2c9e01f54f5247679cbdc51803 Assembly-CSharp.dll:.AkTriggerEnter
 76056c447cc3c6f6ef56bfcaed33514e Oculus.VR.dll:.OVRPlatformMenu
 329a4358a2c40fe3c40f44951200bd91 Assembly-CSharp.dll:.OvrAvatarComponent
 a8c61f120a248e691d195a82070bb1fb Oculus.VR.dll:.OVRHeadsetEmulator
-07748b3a1a2824c506d5ff28dd5e42f6 Assembly-CSharp.dll:.WallTrigger
+66252c751b07648e2abbdd613ac28c8a Assembly-CSharp.dll:.WallTrigger
 f41dc612e461acf568bc5ca2f9d3c8ea Assembly-CSharp.dll:.TeleportOrientationHandlerThumbstick
 025866bb53162ac1e71a1b207ceca793 Assembly-CSharp.dll:.OvrAvatarTestDriver
 0be4c5c10ae412b122a47f0f79c6f324 Assembly-CSharp.dll:.OVRLipSyncSequence

@@ -29,30 +29,19 @@ namespace Reaktion
     [AddComponentMenu("Reaktion/Injector/Audio Injector")]
     public class WwiseInjector : InjectorBase
     {
-
-        const float zeroOffset = 1.5849e-13f;
-        const float refLevel = 0.70710678118f; // 1/sqrt(2)
-        const float minDB = -60.0f;
-
-        public string rtpcName;
-
-
-        float squareSum;
-        int sampleCount;
-
-        private void Start()
-        {
-        }
+        //public bool mute = true;
+        public string RTPCName;
 
         void Update()
         {
             float value;
             int type = 1;
-            AkSoundEngine.GetRTPCValue(rtpcName, gameObject, 0, out value, ref type);
-            dbLevel = value;
-            //Debug.Log(rtpcName + ": " + value);
-        }
 
+            AkSoundEngine.GetRTPCValue(RTPCName, gameObject, 0, out value, ref type);
+
+            dbLevel = value;
+
+        }
     }
 
 } // namespace Reaktion

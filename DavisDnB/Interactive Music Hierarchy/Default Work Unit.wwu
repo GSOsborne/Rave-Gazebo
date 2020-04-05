@@ -3890,10 +3890,10 @@
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{10E19E15-FC51-4CD3-ABCD-EFC7FC01DACF}">
 													<ClipList>
-														<MusicClipMidi Name="#20Triangle" ID="{4BD5C475-807A-4D46-9C58-002352A7CD64}" ShortID="148469304">
+														<MusicClipMidi Name="#20Flat" ID="{63CD6418-8665-4D10-9F25-C38538D50BBA}" ShortID="249948265">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="1777.77777777778"/>
-																<Property Name="MidiFileName" Type="string" Value="#20Triangle.mid"/>
+																<Property Name="MidiFileName" Type="string" Value="#20Flat.mid"/>
 															</PropertyList>
 														</MusicClipMidi>
 													</ClipList>
@@ -3910,10 +3910,10 @@
 												</MusicTrackSequence>
 												<MusicTrackSequence Name="" ID="{FECB0149-D87D-46FB-BD94-5777DB8C5D2A}">
 													<ClipList>
-														<MusicClipMidi Name="#20RampUp" ID="{7EA6B6CD-F7DB-495C-BBD8-7A675346AFF4}" ShortID="983661850">
+														<MusicClipMidi Name="#20Flat" ID="{F497AD1D-6A2B-41AD-B5EF-A8D101D1AF92}" ShortID="738578152">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="1777.77777777778"/>
-																<Property Name="MidiFileName" Type="string" Value="#20RampUp.mid"/>
+																<Property Name="MidiFileName" Type="string" Value="#20Flat.mid"/>
 															</PropertyList>
 														</MusicClipMidi>
 													</ClipList>
@@ -4391,7 +4391,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-3</Value>
+																<Value>-6</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69f72c3f2afd8014789c318f351b610b, type: 3}
+  m_Script: {fileID: 11500000, guid: 0945ab5062031eb4887762ed7368352d, type: 3}
   m_Name: 2220822A-E766-4ED2-886E-292B49967BDF
   m_EditorClassIdentifier: 
   objectName: Blast_Wizard
