@@ -46,12 +46,10 @@ public class GestureTracking : MonoBehaviour
     {
         if (controller == OVRInput.Controller.LTouch && !lhResetting)
         {
-            StartCoroutine(LHResetting());
             RevealWalls(controller, velocityVector);
         }
         else if (controller == OVRInput.Controller.RTouch && !rhResetting)
         {
-            StartCoroutine(RHResetting());
             RevealWalls(controller, velocityVector);
         }
     }
@@ -64,6 +62,14 @@ public class GestureTracking : MonoBehaviour
             if (hit.transform.gameObject.CompareTag("GestureWall"))
             {
                 hit.transform.gameObject.GetComponent<WallTrigger>().WallTriggered();
+                if (controller == OVRInput.Controller.LTouch)
+                {
+                    StartCoroutine(LHResetting());
+                }
+                else
+                {
+                    StartCoroutine(RHResetting());
+                }
             }
             else
             {
@@ -73,7 +79,9 @@ public class GestureTracking : MonoBehaviour
         else
         {
             Debug.Log("the raycast didn't hit anything.");
+
         }
+        Debug.DrawRay(OVRInput.GetLocalControllerPosition(controller), velocityVector, Color.green, 2f);
 
     }
 
