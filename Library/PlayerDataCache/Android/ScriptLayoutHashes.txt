@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Builds/Feb6_HypnoSquares.apk
+C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Builds/April5_AddedMiscellany.apk
 SceneListBegin?
 Assets/Scenes/DavisDnB.unity
 SceneListEnd?
@@ -162,7 +162,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 801fffe42aad4bba39f2cc5c4568786c Assembly-CSharp.dll:.AkEnvironment
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-66cae0b5724e74f7271624fbc0fa6a38 Assembly-CSharp.dll:.DavisDnB_AudioManager
+3af84289bcd1dae281335bd75e3b8712 Assembly-CSharp.dll:.DavisDnB_AudioManager
 caf27b6b72eb1c27445495431511c61a Oculus.VR.dll:.OVRControllerHelper
 71bb6a6b6c8f052f948db64c7dd3ca4f Oculus.VR.dll:.OVRResources
 9337d9b49ef69a8f6b3c9e840a9d2fe6 Assembly-CSharp.dll:OculusSampleFramework.GrabbableCrosshair
@@ -398,3 +398,10 @@ cd06391f9225499fb9ea605ab668b015 Assembly-CSharp.dll:Oculus.Platform.Samples.VrH
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DebugUISample
 2f89da7dc5ab34f2d201bdfe57c2c52c Assembly-CSharp.dll:.WwiseAcousticTextureReference
 08334ee43b75e6ee516a6e2b41854807 Assembly-CSharp.dll:.AkRoomPortal
+3148472db3ce157075a2a7f9fe6dfb97 Assembly-CSharp.dll:.RandomizeStartingRotation
+312fc3f06d2e630b1c44f73b3b4f4ca0 Assembly-CSharp.dll:.DeleteOnOtherColor
+9301b953b502e638e074d0b1d00f8df5 Assembly-CSharp.dll:.RandomizeStartingScale
+27bd4efd4df7c4d738db93d97d8d22fc Assembly-CSharp.dll:.PlayOnCorrectColor
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PersonalMiscellanyShield
+c17c7400d0a1c67cb97a46962437f07c Assembly-CSharp.dll:.WallTriggerBurst
+539cdf1b3c5912bf90e5aa59b40626b6 Assembly-CSharp.dll:.ControllerVelocityColorChange

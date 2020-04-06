@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GestureWall
   - Controller
+  - Miscellany
   layers:
   - Default
   - TransparentFX

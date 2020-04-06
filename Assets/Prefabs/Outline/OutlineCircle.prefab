@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScale: 0.97
-  destroySize: 0.0001
+  destroySize: 0.001
 --- !u!1 &6113879290274553883
 GameObject:
   m_ObjectHideFlags: 0
