@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ChangeCameraColor.cs" />
     <Compile Include="Assets\MidiJack\Midi.cs" />
     <Compile Include="Assets\MidiJack\MidiDriver.cs" />
     <Compile Include="Assets\MidiJack\MidiMaster.cs" />

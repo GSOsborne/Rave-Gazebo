@@ -53834,6 +53834,24 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &1895732928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895732925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2961395ef56df6d4d9f82fbc1544ec6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whenOrange: {r: 1, g: 0.7246948, b: 0.4198113, a: 1}
+  whenYellow: {r: 1, g: 0.9392592, b: 0, a: 1}
+  whenGreen: {r: 0.32377037, g: 1, b: 0.2216981, a: 1}
+  whenBlue: {r: 0.27843142, g: 0.7744921, b: 1, a: 1}
+  whenPurple: {r: 0.8731787, g: 0.3537736, b: 1, a: 1}
+  whenRed: {r: 1, g: 0.33490568, b: 0.33490568, a: 1}
 --- !u!1 &1914664850
 GameObject:
   m_ObjectHideFlags: 0
