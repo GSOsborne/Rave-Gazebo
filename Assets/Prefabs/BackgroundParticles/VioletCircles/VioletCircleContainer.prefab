@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25928be6985d36241872f99a3e6dcea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whichLayer: 5
+  whichLayer: 4
   backgroundParticleObjects:
   - {fileID: 3229039368060111256}
   - {fileID: 3229039367580069875}
