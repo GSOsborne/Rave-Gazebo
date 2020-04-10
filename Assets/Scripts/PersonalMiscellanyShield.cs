@@ -21,7 +21,7 @@ public class PersonalMiscellanyShield : MonoBehaviour
         //Debug.Log("Trigger detected.");
         if (other.CompareTag("Miscellany"))
         {
-            Debug.Log("BOUTTA DESTROY A MISCELLANEOUS BITCH: " + other.gameObject);
+            //Debug.Log("BOUTTA DESTROY A MISCELLANEOUS BITCH: " + other.gameObject);
             Destroy(other.gameObject);
         }
     }
