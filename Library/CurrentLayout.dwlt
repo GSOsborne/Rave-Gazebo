@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 448}
   m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 27
+  controlID: 197
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -316,8 +316,8 @@ MonoBehaviour:
     y: 368
     width: 605
     height: 349
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -378,9 +378,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b24ceeff
-      m_LastClickedID: -1160014
-      m_ExpandedIDs: 50fbffffd4fbffff3c4400005c440000824500003e4600009e470000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -477,20 +477,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/BackgroundParticles/OrangeSpiralSquare
+    - Assets/Prefabs/BackgroundParticles/YellowSpokes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs/BackgroundParticles/OrangeSpiralSquare
+  - Assets/Prefabs/BackgroundParticles/YellowSpokes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\gsosb\Documents\Game Projects\DavisDnBSong
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ee360100
-    m_LastClickedID: 79598
-    m_ExpandedIDs: 00000000003200009a330000c03300007e350000ee350000e2360000ec3600007437000012420000b44d0000cc98000000ca9a3b
+    m_SelectedIDs: 3c3a0000
+    m_LastClickedID: 14908
+    m_ExpandedIDs: 0000000024320000c6330000ec330000ae3500001e3600001637000020370000a83700002a3c000062420000f652000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -518,7 +518,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000003200009a330000c03300007e350000ee350000e2360000ec36000012420000b44d0000
+    m_ExpandedIDs: 0000000024320000c6330000ec330000ae3500001e3600001637000020370000a83700002a3c000062420000f6520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -680,14 +680,14 @@ MonoBehaviour:
     height: 348
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 1b8ee63af16cf2c4fb5dea7b228a57a4
-  m_SceneLighting: 1
+  m_SceneLighting: 0
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.772604, y: -1.2903197, z: 0.008809686}
+    m_Target: {x: 33.966984, y: 0.5685425, z: 33.83302}
     speed: 2
-    m_Value: {x: 3.772604, y: -1.2903197, z: 0.008809686}
+    m_Value: {x: 33.966984, y: 0.5685425, z: 33.83302}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -715,13 +715,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.14683014, y: -0.6284226, z: 0.12237166, w: -0.7540233}
+    m_Target: {x: -0.18222295, y: 0.7547336, z: -0.23522653, w: -0.5846713}
     speed: 2
-    m_Value: {x: -0.14683014, y: -0.6284226, z: 0.12237166, w: -0.7540233}
+    m_Value: {x: -0.18222295, y: 0.7547336, z: -0.23522653, w: -0.5846713}
   m_Size:
-    m_Target: 10
+    m_Target: 90.034935
     speed: 2
-    m_Value: 10
+    m_Value: 90.034935
   m_Ortho:
     m_Target: 0
     speed: 2

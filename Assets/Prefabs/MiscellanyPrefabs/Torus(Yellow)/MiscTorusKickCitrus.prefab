@@ -25,7 +25,7 @@ PrefabInstance:
     - target: {fileID: 935838301064747872, guid: 368503845c4dd914c8e1685941b2b37a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 935838301064747872, guid: 368503845c4dd914c8e1685941b2b37a,
         type: 3}
@@ -76,6 +76,21 @@ PrefabInstance:
         type: 3}
       propertyPath: reaktor._name
       value: KickReaktor
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724620473574234228, guid: 368503845c4dd914c8e1685941b2b37a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724620473574234228, guid: 368503845c4dd914c8e1685941b2b37a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2724620473574234228, guid: 368503845c4dd914c8e1685941b2b37a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 368503845c4dd914c8e1685941b2b37a, type: 3}

@@ -25,7 +25,7 @@ PrefabInstance:
     - target: {fileID: 7530954695348256401, guid: 42584f51640016b4abaaf032e9292bae,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7530954695348256401, guid: 42584f51640016b4abaaf032e9292bae,
         type: 3}
@@ -76,6 +76,21 @@ PrefabInstance:
         type: 3}
       propertyPath: reaktor._name
       value: SnareReaktor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733383806814764421, guid: 42584f51640016b4abaaf032e9292bae,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733383806814764421, guid: 42584f51640016b4abaaf032e9292bae,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4733383806814764421, guid: 42584f51640016b4abaaf032e9292bae,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42584f51640016b4abaaf032e9292bae, type: 3}
