@@ -102,6 +102,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="DavisDnB_OGProd_Layer1" ID="{4097270A-69A1-417F-9BD1-B7EB8DCCD2E6}" ShortID="231053874">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
@@ -160,6 +167,9 @@
 												<MusicTrack Name="DavisDnB_OGProd_Layer2" ID="{3B62569B-0D7A-4083-85B5-D5AB00362F88}" ShortID="987793147">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{215B69EB-9730-49D1-AB2F-3BCE9BC29F0E}" ShortID="6624132">
 																	<ReferenceList>
@@ -259,6 +269,9 @@
 												<MusicTrack Name="DavisDnB_OGProd_Layer3" ID="{29177BB3-6111-43AC-A2E0-C5FE49C0DCCA}" ShortID="257900428">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{335DA6E8-DD8B-4BE9-8F25-2C8D7FB4A80C}" ShortID="832794123">
 																	<ReferenceList>
@@ -386,11 +399,7 @@
 															</CustomState>
 															<CustomState>
 																<StateRef Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
-																<State Name="" ID="{755EAE3D-2C37-4F63-87AD-E4728B54B105}" ShortID="316497913">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-108"/>
-																	</PropertyList>
-																</State>
+																<State Name="" ID="{755EAE3D-2C37-4F63-87AD-E4728B54B105}" ShortID="316497913"/>
 															</CustomState>
 														</CustomStateList>
 													</StateInfo>
@@ -956,11 +965,7 @@
 															</CustomState>
 															<CustomState>
 																<StateRef Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
-																<State Name="" ID="{79FEB817-07A4-4CFF-850B-A4B0AD2AD075}" ShortID="301580770">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-108"/>
-																	</PropertyList>
-																</State>
+																<State Name="" ID="{79FEB817-07A4-4CFF-850B-A4B0AD2AD075}" ShortID="301580770"/>
 															</CustomState>
 														</CustomStateList>
 													</StateInfo>
@@ -989,9 +994,13 @@
 												</MusicTrack>
 												<MusicTrack Name="CharlestonFills" ID="{15FB821F-4686-48B0-B248-384BC8323299}" ShortID="602207147">
 													<PropertyList>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+															<ObjectRef Name="Brick_Wall_Minus_6dB_Peak_Fast_Release" ID="{3FF9AD86-E377-40F8-970F-3D4EE73288B5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Fills" ID="{EF9563A1-FE8B-4F63-922F-EEDA897E1DC7}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
 														</Reference>
@@ -1197,6 +1206,11 @@
 											<TransitionInfo/>
 										</MusicTransition>
 									</TransitionList>
+									<StingerList>
+										<MusicStinger Name="" ID="{62D07875-E84C-4B68-A076-F12843691E1D}">
+											<TriggerRef Name="WallEventStinger" ID="{0818D2CF-D76E-4615-877B-D60453724111}" WorkUnitID="{273CC30E-0D81-4495-AD3C-0B429D10ED76}"/>
+										</MusicStinger>
+									</StingerList>
 									<Playlist>
 										<MusicPlaylistItem Name="" ID="{046D3F78-2319-4CB0-B120-509BF2E1774C}" ShortID="357480037">
 											<PropertyList>
@@ -1237,6 +1251,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="DavisDnB_Dholak_Layer1" ID="{B5E05C81-7733-4218-A7F8-7A5804A6415B}" ShortID="709938008">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
@@ -1295,6 +1316,9 @@
 												<MusicTrack Name="DavisDnB_Dholak_Layer2" ID="{BE9ED7B1-FBFA-4A4E-8199-0C5638C1BA92}" ShortID="46180959">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{C04CB4A8-BA4D-42F1-A605-FE992250289C}" ShortID="168792152">
 																	<ReferenceList>
@@ -1394,6 +1418,9 @@
 												<MusicTrack Name="DavisDnB_Dholak_Layer3" ID="{C666591E-CA49-4B12-82E7-274C9948301E}" ShortID="621406670">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{8BE2323C-E1FF-40A6-934C-EE4CA5F1B664}" ShortID="1035325723">
 																	<ReferenceList>
@@ -1521,11 +1548,7 @@
 															</CustomState>
 															<CustomState>
 																<StateRef Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
-																<State Name="" ID="{8C383E31-0792-4AC7-A5CC-3D0B0D6984B5}" ShortID="603437019">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-108"/>
-																	</PropertyList>
-																</State>
+																<State Name="" ID="{8C383E31-0792-4AC7-A5CC-3D0B0D6984B5}" ShortID="603437019"/>
 															</CustomState>
 														</CustomStateList>
 													</StateInfo>
@@ -2034,6 +2057,9 @@
 												<MusicTrack Name="DavisDnB_Funk_Layer3" ID="{C1758B0B-00B9-4912-85F8-F6408158A97C}" ShortID="280750879">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{14C36BAD-02DF-48E0-9A3F-6C98341BDAF5}" ShortID="203394919">
 																	<ReferenceList>
@@ -2161,11 +2187,7 @@
 															</CustomState>
 															<CustomState>
 																<StateRef Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
-																<State Name="" ID="{C4F1D6A1-9BBD-4318-8CB9-6A1EE74E933E}" ShortID="589229197">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-108"/>
-																	</PropertyList>
-																</State>
+																<State Name="" ID="{C4F1D6A1-9BBD-4318-8CB9-6A1EE74E933E}" ShortID="589229197"/>
 															</CustomState>
 														</CustomStateList>
 													</StateInfo>
@@ -2731,11 +2753,7 @@
 															</CustomState>
 															<CustomState>
 																<StateRef Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
-																<State Name="" ID="{3B671AED-A4C0-42B5-9C9C-79FD57C21125}" ShortID="984472573">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-108"/>
-																	</PropertyList>
-																</State>
+																<State Name="" ID="{3B671AED-A4C0-42B5-9C9C-79FD57C21125}" ShortID="984472573"/>
 															</CustomState>
 														</CustomStateList>
 													</StateInfo>
@@ -4109,11 +4127,7 @@
 															</CustomState>
 															<CustomState>
 																<StateRef Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
-																<State Name="" ID="{D3C99A19-AA0C-4C8D-9B08-005D18DA3C92}" ShortID="589961569">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-108"/>
-																	</PropertyList>
-																</State>
+																<State Name="" ID="{D3C99A19-AA0C-4C8D-9B08-005D18DA3C92}" ShortID="589961569"/>
 															</CustomState>
 														</CustomStateList>
 													</StateInfo>
@@ -4143,6 +4157,11 @@
 												<MusicTrack Name="fill1" ID="{5183A878-7FD8-4CFD-89EB-194293DC2490}" ShortID="346545743">
 													<PropertyList>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
@@ -4288,6 +4307,9 @@
 												<MusicTrack Name="DavisDnB_Sniper_Layer3" ID="{2A9BFC16-EF67-4507-A161-A5F4DF70C52A}" ShortID="73539962">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{7F737106-482B-414C-B83E-0243E25FBA54}" ShortID="344301915">
 																	<ReferenceList>
@@ -4391,7 +4413,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-3</Value>
+																<Value>-5</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -4460,7 +4482,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-3</Value>
+																<Value>-6</Value>
 															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{11C289BF-1AA8-4CE8-901E-A47F9E323DDD}" ShortID="558841522">

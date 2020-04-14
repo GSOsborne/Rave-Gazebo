@@ -57,7 +57,7 @@ public class GestureTracking : MonoBehaviour
     void RevealWalls(OVRInput.Controller controller, Vector3 velocityVector)
     {
         Ray checkForWall = new Ray(OVRInput.GetLocalControllerPosition(controller), velocityVector);
-        if (Physics.Raycast(checkForWall, out hit, 10f))
+        if (Physics.Raycast(checkForWall, out hit, 30f))
         {
             if (hit.transform.gameObject.CompareTag("GestureWall"))
             {

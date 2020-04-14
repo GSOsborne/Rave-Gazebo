@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{273CC30E-0D81-4495-AD3C-0B429D10ED76}" PersistMode="Standalone">
 			<ChildrenList>
 				<Trigger Name="MeasureOfDSP" ID="{2D20A4F3-5264-4737-B165-D1ED05226F44}"/>
+				<Trigger Name="WallEventStinger" ID="{0818D2CF-D76E-4615-877B-D60453724111}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Triggers>

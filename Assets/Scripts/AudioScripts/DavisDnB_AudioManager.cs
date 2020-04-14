@@ -117,11 +117,11 @@ public class DavisDnB_AudioManager : MonoBehaviour
     {
         if (chargeLevel > 70)
         {
-            chargeLevel = Mathf.Clamp(chargeLevel - chargeFadeMultiplier / 4 * Time.deltaTime, 0, 100);
+            chargeLevel = Mathf.Clamp(chargeLevel - chargeFadeMultiplier / 2f * Time.deltaTime, 0, 100);
         }
         else if (chargeLevel > 40)
         {
-            chargeLevel = Mathf.Clamp(chargeLevel - chargeFadeMultiplier / 2 * Time.deltaTime, 0, 100);
+            chargeLevel = Mathf.Clamp(chargeLevel - chargeFadeMultiplier / 1.3f * Time.deltaTime, 0, 100);
         }
         else
         {

@@ -96,6 +96,7 @@ namespace AK
     namespace TRIGGERS
     {
         static const AkUniqueID MEASUREOFDSP = 3518675453U;
+        static const AkUniqueID WALLEVENTSTINGER = 541953367U;
     } // namespace TRIGGERS
 
     namespace BANKS

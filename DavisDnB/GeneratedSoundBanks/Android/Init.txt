@@ -60,6 +60,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	534559576	CC19Distortion	Wwise Guitar Distortion			
 	869835104	CC17LowPass	Wwise Parametric EQ			
 	1202749338	CC20Verb	Wwise RoomVerb			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
 	1573808800	SnareReaktionMeter	Wwise Meter			
 	1728792901	TurnThatShitDown	Wwise Gain			
 	2258521792	Brick_Wall_Minus_1dB_Peak_Slow_Release	Wwise Peak Limiter			
