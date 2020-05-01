@@ -73,15 +73,15 @@ public class GestureTracking : MonoBehaviour
             }
             else
             {
-                Debug.Log("Instead of a wall, I hit: " + hit.transform.gameObject);
+                //Debug.Log("Instead of a wall, I hit: " + hit.transform.gameObject);
             }
         }
         else
         {
-            Debug.Log("the raycast didn't hit anything.");
+           // Debug.Log("the raycast didn't hit anything.");
 
         }
-        Debug.DrawRay(OVRInput.GetLocalControllerPosition(controller), velocityVector, Color.green, 2f);
+        //Debug.DrawRay(OVRInput.GetLocalControllerPosition(controller), velocityVector, Color.green, 2f);
 
     }
 

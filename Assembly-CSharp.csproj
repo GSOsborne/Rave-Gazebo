@@ -355,6 +355,7 @@
     <Compile Include="Assets\OscJack\OscDirectory.cs" />
     <Compile Include="Assets\OscJack\OscMaster.cs" />
     <Compile Include="Assets\OscJack\OscServer.cs" />
+    <Compile Include="Assets\OutlineColorChange.cs" />
     <Compile Include="Assets\Reaktion\Gear\AnimatorGear.cs" />
     <Compile Include="Assets\Reaktion\Gear\CameraGear.cs" />
     <Compile Include="Assets\Reaktion\Gear\ConstantMotionGear.cs" />
@@ -657,12 +658,6 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

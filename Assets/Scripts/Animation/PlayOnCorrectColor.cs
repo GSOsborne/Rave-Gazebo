@@ -39,10 +39,11 @@ public class PlayOnCorrectColor : MonoBehaviour
 
     IEnumerator BurstSpawnForSomeSeconds()
     {
-        Debug.Log("Made it to the coroutine.");
+        //Debug.Log("Made it to the coroutine.");
+        yield return new WaitForSeconds(.5f); // This is to prevent overload of spawners spawning and etc when you're just waving your hands wildly.
         thisSpawner.enabled = true;
         yield return new WaitForSeconds(.5f + DavisDnB_AudioManager.Instance.chargeLevel * .02f);
-        Debug.Log("Added additional " + DavisDnB_AudioManager.Instance.chargeLevel * .02f + " seconds cuz of charge.");
+        //Debug.Log("Added additional " + DavisDnB_AudioManager.Instance.chargeLevel * .02f + " seconds cuz of charge.");
         thisSpawner.enabled = false;
     }
 

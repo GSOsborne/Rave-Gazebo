@@ -110,7 +110,7 @@ public class DavisDnB_AudioManager : MonoBehaviour
     void BoostCharge()
     {
         chargeLevel = Mathf.Clamp(chargeLevel + chargeBoostValue, 0, 100);
-        Debug.Log("Charge Level is now at: " + chargeLevel);
+        //Debug.Log("Charge Level is now at: " + chargeLevel);
     }
 
     void FadeCharge()
