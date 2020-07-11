@@ -49,6 +49,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{CC53BDFC-4528-4AA6-9141-7B3B3311FF99}" ShortID="891517550">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WallTriggerSound" ID="{C3FB3E82-EC64-41E8-9884-0055E9DFA5BC}" WorkUnitID="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="CloseFills" ID="{14C1129F-FAA1-4AC4-BCD4-75CB617A5867}">
@@ -97,16 +107,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{FD865C27-FE2F-4904-9401-9818AF5C4D22}" ShortID="231789838">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WallTriggerSound" ID="{C3FB3E82-EC64-41E8-9884-0055E9DFA5BC}" WorkUnitID="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="LayerDholak" ID="{078E927A-C363-48C8-BBA3-54805E18954B}">
@@ -128,16 +128,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{1FC49FF3-0CC8-40E1-AA0A-2D50526EA840}" ShortID="664030714">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WallTriggerSound" ID="{C3FB3E82-EC64-41E8-9884-0055E9DFA5BC}" WorkUnitID="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -165,16 +155,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{770D2D0F-C29F-453B-9D41-46C17BE3C7F3}" ShortID="25030085">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WallTriggerSound" ID="{C3FB3E82-EC64-41E8-9884-0055E9DFA5BC}" WorkUnitID="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="LayerFunk" ID="{5620CA6C-4A05-4868-B3DE-89F041FAE4BD}">
@@ -199,16 +179,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{F329CA99-C893-45B6-AE40-E129B9E2FAC8}" ShortID="808530422">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WallTriggerSound" ID="{C3FB3E82-EC64-41E8-9884-0055E9DFA5BC}" WorkUnitID="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="LayerSqueaker" ID="{01444A25-63FE-44D8-B0F9-D112E162916A}">
@@ -230,16 +200,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{CE1D9F2B-E703-43A8-97D8-5743709BBD43}" ShortID="676736662">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WallTriggerSound" ID="{C3FB3E82-EC64-41E8-9884-0055E9DFA5BC}" WorkUnitID="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -299,16 +259,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Sniper" ID="{6323ACBC-0106-43B5-A506-E028E73A144B}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B3897AC1-51A6-45FA-A549-0B85F41D01DF}" ShortID="515302940">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WallTriggerSound" ID="{C3FB3E82-EC64-41E8-9884-0055E9DFA5BC}" WorkUnitID="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

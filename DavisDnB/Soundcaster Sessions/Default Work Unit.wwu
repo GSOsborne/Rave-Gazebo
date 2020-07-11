@@ -97,7 +97,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="ChargeLevel" ID="{383340EE-CDD5-4BDB-98BA-576D68596138}"/>
-							<Value>48</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
@@ -111,10 +111,14 @@
 							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
 							<Value>50</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}"/>
+							<Value>7</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="CloseFill" ID="{BA748834-D2BD-437F-B2B6-691109D700EB}"/>
-						<CurrentStateRef Name="Charleston" ID="{DE91C07E-5FFF-4619-98B9-DF3576D7EF2D}"/>
+						<CurrentStateRef Name="Dholak" ID="{9A9AC35B-E005-424E-876A-5661E9904094}"/>
 						<CurrentStateRef Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>

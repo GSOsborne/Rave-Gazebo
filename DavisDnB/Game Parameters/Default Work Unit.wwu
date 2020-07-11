@@ -71,6 +71,7 @@
 						<Property Name="Min" Type="Real64" Value="-48"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

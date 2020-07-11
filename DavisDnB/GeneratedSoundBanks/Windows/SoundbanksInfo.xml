@@ -18,13 +18,13 @@
 			<IncludedEvents>
 				<Event Id="2658066811" Name="CloseFills" ObjectPath="\Events\Default Work Unit\CloseFills" MaxAttenuation="0.000000"/>
 				<Event Id="4286046374" Name="DSPTrigger" ObjectPath="\Events\Default Work Unit\DSPTrigger" MaxAttenuation="0.000000"/>
-				<Event Id="3556790691" Name="LayerCharleston" ObjectPath="\Events\Default Work Unit\LayerCharleston"/>
-				<Event Id="1154343441" Name="LayerDholak" ObjectPath="\Events\Default Work Unit\LayerDholak"/>
-				<Event Id="189758730" Name="LayerFunk" ObjectPath="\Events\Default Work Unit\LayerFunk"/>
-				<Event Id="2774025313" Name="LayerOGProd" ObjectPath="\Events\Default Work Unit\LayerOGProd"/>
-				<Event Id="4001994617" Name="LayerSniper" ObjectPath="\Events\Default Work Unit\LayerSniper"/>
-				<Event Id="323477279" Name="LayerSqueaker" ObjectPath="\Events\Default Work Unit\LayerSqueaker"/>
-				<Event Id="3391767169" Name="OpenFills" ObjectPath="\Events\Default Work Unit\OpenFills" MaxAttenuation="0.000000"/>
+				<Event Id="3556790691" Name="LayerCharleston" ObjectPath="\Events\Default Work Unit\LayerCharleston" MaxAttenuation="0.000000"/>
+				<Event Id="1154343441" Name="LayerDholak" ObjectPath="\Events\Default Work Unit\LayerDholak" MaxAttenuation="0.000000"/>
+				<Event Id="189758730" Name="LayerFunk" ObjectPath="\Events\Default Work Unit\LayerFunk" MaxAttenuation="0.000000"/>
+				<Event Id="2774025313" Name="LayerOGProd" ObjectPath="\Events\Default Work Unit\LayerOGProd" MaxAttenuation="0.000000"/>
+				<Event Id="4001994617" Name="LayerSniper" ObjectPath="\Events\Default Work Unit\LayerSniper" MaxAttenuation="0.000000"/>
+				<Event Id="323477279" Name="LayerSqueaker" ObjectPath="\Events\Default Work Unit\LayerSqueaker" MaxAttenuation="0.000000"/>
+				<Event Id="3391767169" Name="OpenFills" ObjectPath="\Events\Default Work Unit\OpenFills"/>
 				<Event Id="3385657599" Name="StartLevel" ObjectPath="\Events\Default Work Unit\StartLevel"/>
 				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
@@ -281,6 +281,10 @@
 					<ShortName>#17RampDown.mid</ShortName>
 					<Path>SFX\#17RampDown_00000000.wem</Path>
 				</File>
+				<File Id="508746534" Language="SFX">
+					<ShortName>RaveGazebo_SlowBass_v1.wav</ShortName>
+					<Path>SFX\RaveGazebo_SlowBass_v1_8956FC97.wem</Path>
+				</File>
 				<File Id="511470018" Language="SFX">
 					<ShortName>#21Flat.mid</ShortName>
 					<Path>SFX\#21Flat_00000000.wem</Path>
@@ -396,6 +400,10 @@
 				<File Id="722996484" Language="SFX">
 					<ShortName>Charleston_Sting3.wav</ShortName>
 					<Path>SFX\Charleston_Sting3_56D34C19.wem</Path>
+				</File>
+				<File Id="728625553" Language="SFX">
+					<ShortName>RaveGazebo_FastBass_v1.wav</ShortName>
+					<Path>SFX\RaveGazebo_FastBass_v1_8956FC97.wem</Path>
 				</File>
 				<File Id="741214201" Language="SFX">
 					<ShortName>Sniper_Sting6.wav</ShortName>

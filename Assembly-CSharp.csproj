@@ -52,6 +52,9 @@
     <UnityVersion>2018.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.6f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -60,12 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BackgroundParticleLayer.cs" />
-    <Compile Include="Assets\LengthScaleWithCharge.cs" />
     <Compile Include="Assets\MidiJack\Midi.cs" />
     <Compile Include="Assets\MidiJack\MidiDriver.cs" />
     <Compile Include="Assets\MidiJack\MidiMaster.cs" />
-    <Compile Include="Assets\NoiseAndSizeWithCharge.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -355,7 +355,6 @@
     <Compile Include="Assets\OscJack\OscDirectory.cs" />
     <Compile Include="Assets\OscJack\OscMaster.cs" />
     <Compile Include="Assets\OscJack\OscServer.cs" />
-    <Compile Include="Assets\OutlineColorChange.cs" />
     <Compile Include="Assets\Reaktion\Gear\AnimatorGear.cs" />
     <Compile Include="Assets\Reaktion\Gear\CameraGear.cs" />
     <Compile Include="Assets\Reaktion\Gear\ConstantMotionGear.cs" />
@@ -401,16 +400,24 @@
     <Compile Include="Assets\Scripts\AudioScripts\DavisDnB_AudioManager.cs" />
     <Compile Include="Assets\Scripts\AudioScripts\FakeDSPTrigger.cs" />
     <Compile Include="Assets\Scripts\AudioScripts\FakeSliderRTPCUpdate.cs" />
-    <Compile Include="Assets\Scripts\EmissionWithCharge.cs" />
+    <Compile Include="Assets\Scripts\AudioScripts\SpeedManager.cs" />
     <Compile Include="Assets\Scripts\Gestures\BurstOnGesture.cs" />
     <Compile Include="Assets\Scripts\Gestures\ControllerVelocityColorChange.cs" />
     <Compile Include="Assets\Scripts\Gestures\ExitSlap.cs" />
+    <Compile Include="Assets\Scripts\Gestures\GazeTrigger.cs" />
     <Compile Include="Assets\Scripts\Gestures\GestureTracking.cs" />
+    <Compile Include="Assets\Scripts\Gestures\PanelLifter.cs" />
+    <Compile Include="Assets\Scripts\Gestures\SpeedTriggerPanel.cs" />
     <Compile Include="Assets\Scripts\Gestures\StartSongTrigger.cs" />
     <Compile Include="Assets\Scripts\Gestures\WallTrigger.cs" />
     <Compile Include="Assets\Scripts\Gestures\WallTriggerBurst.cs" />
-    <Compile Include="Assets\Scripts\PersonalMiscellanyShield.cs" />
+    <Compile Include="Assets\Scripts\Visuals\BackgroundParticleLayer.cs" />
     <Compile Include="Assets\Scripts\Visuals\ChangeCameraColor.cs" />
+    <Compile Include="Assets\Scripts\Visuals\EmissionWithCharge.cs" />
+    <Compile Include="Assets\Scripts\Visuals\LengthScaleWithCharge.cs" />
+    <Compile Include="Assets\Scripts\Visuals\NoiseAndSizeWithCharge.cs" />
+    <Compile Include="Assets\Scripts\Visuals\OutlineColorChange.cs" />
+    <Compile Include="Assets\Scripts\Visuals\PersonalMiscellanyShield.cs" />
     <Compile Include="Assets\Scripts\Visuals\SaturationWithCharge.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />

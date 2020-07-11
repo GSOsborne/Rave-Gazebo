@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Builds/May1_ContinuationOfProgress.apk
+C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Builds/July11_SpeedChanging.apk
 SceneListBegin?
 Assets/Scenes/DavisDnB.unity
 SceneListEnd?
@@ -120,6 +120,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+94c46d109e785de85c1d83765b7f67f5 Assembly-CSharp.dll:.SpeedTriggerPanel
 c51d2a1569bb404a12e837742887b609 Oculus.VR.dll:.OVRPlayerController
 558b301491aa906446760eed78a170c5 Oculus.VR.dll:.OVRAudioSourceTest
 d29554da4f32756eaad6ec0d568c5648 Assembly-CSharp.dll:.OvrAvatarSDKManager
@@ -344,6 +345,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 d170ea2c9e01f54f5247679cbdc51803 Assembly-CSharp.dll:.AkTriggerCollisionEnter
 86bb1cde6078bcf18d53110afa103dbc Assembly-CSharp.dll:.DebugUIBuilder
 a6ded2673e2fb033edf3bf8af9c7c7dc Assembly-CSharp.dll:.OvrAvatarMaterialManager
+6bc78b10d525929e79d71ad965e2f155 Assembly-CSharp.dll:.PanelLifter
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PersonalMiscellanyShield
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AkSpatialAudioListener
 60ae880eea3fadf767e793c0d56acce0 Assembly-CSharp.dll:.AkRoomPortalObstruction
@@ -385,6 +387,7 @@ cd06391f9225499fb9ea605ab668b015 Assembly-CSharp.dll:Oculus.Platform.Samples.VrV
 e1bbf0ab858085e38fae6b12ebbdcd35 Assembly-CSharp.dll:.AkEventTrack
 9301b953b502e638e074d0b1d00f8df5 Assembly-CSharp.dll:.RandomizeStartingScale
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ActivateAllDisplays
+1b0b96eb95cf990b8af5af50c1d2fdc4 Assembly-CSharp.dll:.GazeTrigger
 4b6a017d29bba093ef9bff42562c03b0 Assembly-CSharp.dll:.NoiseAndSizeWithCharge
 1f3cfd922fc1e0d8b99f133aa61514d9 Assembly-CSharp.dll:.AkRoom
 0206d628903d330ab486ebffa9dc4292 Assembly-CSharp.dll:OVR.TestScript
@@ -411,3 +414,4 @@ cd06391f9225499fb9ea605ab668b015 Assembly-CSharp.dll:Oculus.Platform.Samples.VrH
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DebugUISample
 2f89da7dc5ab34f2d201bdfe57c2c52c Assembly-CSharp.dll:.WwiseAcousticTextureReference
 08334ee43b75e6ee516a6e2b41854807 Assembly-CSharp.dll:.AkRoomPortal
+0554dbc43f736c5a3704c1817568c588 Assembly-CSharp.dll:.SpeedManager

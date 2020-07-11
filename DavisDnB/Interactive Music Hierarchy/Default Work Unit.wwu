@@ -66,6 +66,54 @@
 						</MusicSegment>
 						<MusicSwitchContainer Name="CubeSwitch" ID="{875C0887-7727-43D7-A29E-9A589F1C4BDF}" ShortID="1023319947">
 							<PropertyList>
+								<Property Name="PlaybackSpeed" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{4B93838C-2E7E-49D7-B1A5-74525E40786B}" ShortID="733404350">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7A46DCC7-B354-4AE7-8C53-5F1CF4CC41B0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.85</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>0.85</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>30</XPos>
+														<YPos>1</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>75.4464285714286</XPos>
+														<YPos>1</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>80</XPos>
+														<YPos>1.15</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1.15</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Tempo" Type="Real64" Value="135"/>
 								<Property Name="TimeSignatureUpper" Type="int16" Value="2"/>
 							</PropertyList>
@@ -371,6 +419,54 @@
 												<MusicTrack Name="DavisDnB_Bass_v1" ID="{86CD4703-02D8-4934-8BE2-A948DD6A3E04}" ShortID="722215294">
 													<PropertyList>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{A0F1FA10-7CFA-4FEF-8AA4-D4379629285F}" ShortID="212956449">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{27CE0707-795E-450E-ACB7-C33EE2B83EF4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30.02232</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
@@ -612,6 +708,188 @@
 																		<Property Name="MidiFileName" Type="string" Value="OGProd_SnareMIDI.mid"/>
 																	</PropertyList>
 																</MusicClipMidi>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_FastBass_v1" ID="{E3CE6C2D-4E63-4879-BD84-925865A2884B}" ShortID="361315613">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-9</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{26C550E6-578F-4F48-AC29-4464D9B6FECB}" ShortID="318123176">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{1D124B04-0029-4335-943F-C47EAD9781E2}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_FastBass_v1" ID="{CAEF265C-83EE-4C17-A46A-A2D44933E0B2}" ShortID="170514170">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_FastBass_v1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="728625553"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{A73D48E5-A0CC-4009-AA64-3D17EF87A780}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{37CEC66A-4460-49F6-841A-76F9F982D53B}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{75A1B927-8AE5-42B7-891D-BC1B011F8705}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{CAEF265C-83EE-4C17-A46A-A2D44933E0B2}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{1FBB755B-D1E3-4338-A484-284F081C879C}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{CAEF265C-83EE-4C17-A46A-A2D44933E0B2}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_SlowBass_v1" ID="{2C288C5E-8607-49FD-A458-0104014B686D}" ShortID="678453134">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{4B4EA412-8774-4E22-8722-0384E239ED44}" ShortID="830441125">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{08DC0196-73BF-4860-80A7-9034370CF3F4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_SlowBass_v1" ID="{7CD24E16-5553-465D-AFC5-BC5584465317}" ShortID="352987625">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_SlowBass_v1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="508746534"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{F4F4526A-FB4F-4052-A68C-9D9D5C510A27}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{A041CD95-FA98-4CE4-BD96-1D806D95CF01}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{8213EAAE-FA1B-4A93-827E-116C37FAC6EF}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{7CD24E16-5553-465D-AFC5-BC5584465317}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{CA45276F-846F-4731-BF21-E1003BD2F109}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{7CD24E16-5553-465D-AFC5-BC5584465317}"/>
+																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
 													</SequenceList>
@@ -937,6 +1215,54 @@
 												<MusicTrack Name="DavisDnB_Bass_v1" ID="{D1BC6225-66E5-4E5E-A7A7-8DACCD6F24DE}" ShortID="918464744">
 													<PropertyList>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{316A6B4D-AA92-4390-9E75-AD0B7AEC72C5}" ShortID="983371992">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{552BDA19-8188-46D6-978D-075B1B3BAB8D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>-96</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30.02232</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>-96</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
@@ -1177,6 +1503,185 @@
 																		<Property Name="MidiFileName" Type="string" Value="Charleston_SnareMIDI.mid"/>
 																	</PropertyList>
 																</MusicClipMidi>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_FastBass_v1" ID="{E97C49D5-CB71-4237-A8E5-AACA4DC0B59A}" ShortID="45955583">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-9</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{70FD5C05-DE64-40A5-BA6F-746A112AB416}" ShortID="61630618">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{92D7EABD-8111-489A-94CE-E650DC60B857}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_FastBass_v1" ID="{0D994EBD-1633-4AE0-B35D-E7B314FF0F8E}" ShortID="728625553">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_FastBass_v1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{C6F6EEBB-E2F4-416C-A3D5-01D69C0E05D7}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{0E1E5EE9-E8F7-47A3-83E4-9C90A2511D7B}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{D3D41AF7-D6D2-472F-BC2C-D0D93A4B34D4}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{0D994EBD-1633-4AE0-B35D-E7B314FF0F8E}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{BA72F57B-FF8E-45F7-9D31-D04BE3BF808E}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{0D994EBD-1633-4AE0-B35D-E7B314FF0F8E}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_SlowBass_v1" ID="{B3FA5E11-F8EA-49E2-9661-C075F4FAF64F}" ShortID="1021251733">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{232CEBA3-0D0A-42E1-9CE7-60A15CE5A9A1}" ShortID="539852774">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{2741FF59-F0FC-4D55-8E25-9CFB8923750D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_SlowBass_v1" ID="{80A98527-F4DE-4C9F-8297-E7E496BDD449}" ShortID="764093678">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_SlowBass_v1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="508746534"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{5724D08F-FF1A-44E1-9B6E-A6AC5891F907}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{AA1375E8-037A-489E-9BC5-9B7302030CF7}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{7950F07C-3709-450C-A06A-9EFCBF9560B7}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{80A98527-F4DE-4C9F-8297-E7E496BDD449}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{123CB0DD-277C-46FF-99C3-A16215219776}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{80A98527-F4DE-4C9F-8297-E7E496BDD449}"/>
+																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
 													</SequenceList>
@@ -1520,6 +2025,54 @@
 												<MusicTrack Name="DavisDnB_Bass_v1" ID="{4F67637E-E007-4843-83B7-EF4C5271F93D}" ShortID="430149318">
 													<PropertyList>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{89786AB7-F903-4895-82D9-BF25EF95B9C9}" ShortID="646736694">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{E3C10A0B-26BD-4AD8-977A-86BFA102985D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30.02232</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
@@ -1831,6 +2384,185 @@
 																		<Property Name="MidiFileName" Type="string" Value="Dholak_SnareMIDI.mid"/>
 																	</PropertyList>
 																</MusicClipMidi>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_FastBass_v1" ID="{B999D288-ACA4-4B98-B1C6-5EB8026B5339}" ShortID="698280451">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-9</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{898C0E96-72EA-4C54-8EBA-2EA4EC4EF1FD}" ShortID="447384158">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{4AC2B12C-C0AA-4EB1-942F-9589AF65FCB1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_FastBass_v1" ID="{846EBFCE-EA42-4991-9B1F-491B3318F7DA}" ShortID="43657829">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_FastBass_v1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="728625553"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{6F9C75BB-A768-43D7-B26A-932425087FC2}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{DEC49998-5638-4D35-AA21-ECC89AC24F6A}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{5A791606-F179-4C33-B5B0-ACB6A2BC5440}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{846EBFCE-EA42-4991-9B1F-491B3318F7DA}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{5E662956-8EAF-416F-9BDE-32C19FCBD842}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{846EBFCE-EA42-4991-9B1F-491B3318F7DA}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_SlowBass_v1" ID="{39988597-D3EE-4E97-ABE4-4278CCCFC953}" ShortID="503583969">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{936DCC22-025A-4E33-9753-A0622AEA1CDA}" ShortID="409912826">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{9DC3F113-0944-406B-BAC5-A4BE8CE75EE6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_SlowBass_v1" ID="{2DB9443F-29AD-454B-BE98-114A6E5B6EBA}" ShortID="508746534">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_SlowBass_v1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{6ED78327-21FF-4188-A4E5-7192DE7C27A0}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{EA8A0751-4DA5-4F82-B5DA-F1ADF59B2113}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{1ECD0F42-CE70-4214-849B-8995C1B1E267}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{2DB9443F-29AD-454B-BE98-114A6E5B6EBA}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{3F7D8B20-9B71-43D3-9395-1803F0B57C6A}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{2DB9443F-29AD-454B-BE98-114A6E5B6EBA}"/>
+																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
 													</SequenceList>
@@ -2159,6 +2891,54 @@
 												<MusicTrack Name="DavisDnB_Bass_v1" ID="{EA4D4750-0D66-4756-8F82-73D1574715BC}" ShortID="1067964195">
 													<PropertyList>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{68B35E5E-4D8B-4251-A443-FD1F3452E786}" ShortID="55257134">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{428893F5-7395-47EB-BB71-EB62E05CE6DC}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30.02232</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
@@ -2400,6 +3180,188 @@
 																		<Property Name="MidiFileName" Type="string" Value="Funk_SnareMIDI.mid"/>
 																	</PropertyList>
 																</MusicClipMidi>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_FastBass_v1" ID="{55399BA4-97B4-4F3C-B6AB-56354ECC4245}" ShortID="453953205">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-9</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{E93400EC-E3F4-4453-BA2F-917B4AEECFDB}" ShortID="74974669">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{F7F59383-AC33-41E8-A3E6-1B6640862798}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_FastBass_v1" ID="{F738DB18-930A-4C81-8B1A-8BE40C2B422A}" ShortID="285496516">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_FastBass_v1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="728625553"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{E23A4D86-A410-41FF-95B0-71FF92567776}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{9AAAFD1F-0A6A-4A8F-A54D-761BBC7DE76B}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{1F549FBB-7E9A-44B5-B073-73BE79C2ABBB}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{F738DB18-930A-4C81-8B1A-8BE40C2B422A}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{1F6AF535-3B7B-464A-9F94-A197CCAD2B7A}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{F738DB18-930A-4C81-8B1A-8BE40C2B422A}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_SlowBass_v1" ID="{EAEB9107-13B6-4B50-83B7-58AF84BBB2F3}" ShortID="970756922">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{26F4F95E-12F5-43EB-8BD9-2B4B0DDAA540}" ShortID="225511201">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{9EF695F0-7DAB-49A4-874F-A53A123B80DE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_SlowBass_v1" ID="{1F3F8CBC-E8C2-491B-89EE-D36A1EF200D0}" ShortID="829354753">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_SlowBass_v1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="508746534"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{08B69D27-2F38-4E3E-8467-50F02F915451}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{4EEDB1ED-452D-424F-85DD-18C73F3EA0EF}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{9C0C2CD2-3A4C-432B-9FCD-C2211CC4900E}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{1F3F8CBC-E8C2-491B-89EE-D36A1EF200D0}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{20453B26-FAD8-4E04-89BD-EA6915625FD5}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{1F3F8CBC-E8C2-491B-89EE-D36A1EF200D0}"/>
+																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
 													</SequenceList>
@@ -2725,6 +3687,54 @@
 												<MusicTrack Name="DavisDnB_Bass_v1" ID="{225CAC42-772D-4E4E-8005-D20039988466}" ShortID="191069039">
 													<PropertyList>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{ECDC0F08-9B94-4EA2-BEDF-26B849805322}" ShortID="214589716">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{95C3EE63-32A4-4778-90CA-0AAA618AE5B6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30.02232</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
@@ -3000,6 +4010,188 @@
 																		<Property Name="MidiFileName" Type="string" Value="Squeaker_SnareMIDI.mid"/>
 																	</PropertyList>
 																</MusicClipMidi>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_FastBass_v1" ID="{16810CF9-DAD4-4845-BFE9-69FA95DF72DF}" ShortID="86758226">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-9</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{17DDEAC9-F4E9-49CB-B5D0-098BC3970BD1}" ShortID="703233102">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{60C1BA6A-0D78-465A-872A-E57B3E8BB734}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_FastBass_v1" ID="{96AEDD1F-B877-4218-AF14-34EDBA747E59}" ShortID="129514023">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_FastBass_v1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="728625553"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{7EEBA601-E104-4262-84EB-4B95E3014BFF}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{14430649-9764-453D-9357-1D5177E975F8}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{332831F5-2CAA-470F-B15E-6733B80EE1FA}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{96AEDD1F-B877-4218-AF14-34EDBA747E59}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{75C0F7A3-AA89-4A5D-A954-EF5A04731881}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{96AEDD1F-B877-4218-AF14-34EDBA747E59}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_SlowBass_v1" ID="{A10B1A8B-06D2-4DEA-A22A-4ACA8E6E4F94}" ShortID="300028730">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{800A35A7-A80D-4881-B77B-2F3B0D60EC9E}" ShortID="688255699">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{460B53A7-69A1-47C2-9C26-BD31940CEA6F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_SlowBass_v1" ID="{0516CC3B-DB03-439B-A346-E2911D8DA1EC}" ShortID="941480652">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_SlowBass_v1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="508746534"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{CA6E048C-15D9-4333-A6EC-F3C2F02F0AE0}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{86C04A47-19DE-4861-948B-50F19EC4F591}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{3A04FA61-BF6A-464A-AF2F-E04547C756EB}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{0516CC3B-DB03-439B-A346-E2911D8DA1EC}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{1337BD68-55F0-43A6-9543-187D2D6F90E4}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{0516CC3B-DB03-439B-A346-E2911D8DA1EC}"/>
+																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
 													</SequenceList>
@@ -4099,6 +5291,54 @@
 												<MusicTrack Name="DavisDnB_Bass_v1" ID="{0A186674-42CB-4434-8E74-23A3873BF59C}" ShortID="485694130">
 													<PropertyList>
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{7B27CA75-F3A5-4E01-8D01-00C98DAE6A4D}" ShortID="23668424">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{C7DD92AC-3EA2-49E9-9B1C-8E15D5C54C02}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30.02232</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
@@ -4645,6 +5885,188 @@
 																		<Property Name="MidiFileName" Type="string" Value="Sniper_SnareMIDI.mid"/>
 																	</PropertyList>
 																</MusicClipMidi>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_FastBass_v1" ID="{0335D3AF-88A8-4C04-874A-491E87E2C146}" ShortID="95643215">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-9</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{407D4FA9-69A9-4E5A-A065-184313BFC193}" ShortID="96865710">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{7771D6D3-BD56-4A2D-8333-75ED8FC05F01}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>70</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>80</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_FastBass_v1" ID="{B5E92470-35D3-4008-89A9-80CEDEA91E45}" ShortID="312862150">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_FastBass_v1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="728625553"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{9C1BFF76-DCF4-4408-BFEB-E6224F784D36}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{598AFA45-8383-4A83-8761-5618B7E83884}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{24757DB7-3E42-4BD0-970F-BC835034D9E4}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{B5E92470-35D3-4008-89A9-80CEDEA91E45}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_FastBass_v1" ID="{8EA8188F-263F-49B3-91BA-F9C4EED14C57}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2222222222"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_FastBass_v1" ID="{B5E92470-35D3-4008-89A9-80CEDEA91E45}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="RaveGazebo_SlowBass_v1" ID="{6898EA7D-0863-4FDA-89C3-E7F128FE0CE9}" ShortID="308293719">
+													<PropertyList>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{E5B889F8-B7B6-4465-A2A3-E8F10FA6F03F}" ShortID="299059280">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{05DF0ACD-9098-43FD-BDE9-7F077C893F84}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>20</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>30</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RaveGazebo_SlowBass_v1" ID="{D74D4A1C-D054-475F-B16A-7F8D63E8C30C}" ShortID="968280224">
+															<Language>SFX</Language>
+															<AudioFile>RaveGazebo_SlowBass_v1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="508746534"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{A9F0C810-A382-48BD-A2D4-160604896101}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{DACC4E76-7398-41EC-BFD3-7E55F37A1732}">
+															<ClipList>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{96F9C61D-EFD7-4046-A833-65816D46FBE4}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{D74D4A1C-D054-475F-B16A-7F8D63E8C30C}"/>
+																</MusicClip>
+																<MusicClip Name="RaveGazebo_SlowBass_v1" ID="{5FDE96D9-D1FB-440D-AFD5-475E9F5CCF76}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="14222.2291666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{D74D4A1C-D054-475F-B16A-7F8D63E8C30C}"/>
+																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
 													</SequenceList>

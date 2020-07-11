@@ -78,6 +78,7 @@ namespace AK
         static const AkUniqueID CHARGELEVEL = 768774117U;
         static const AkUniqueID KICKREAKTIONRTPC = 4144501391U;
         static const AkUniqueID PLAYBACK_RATE = 1524500807U;
+        static const AkUniqueID PLAYBACKSPEEDRTPC = 1075330786U;
         static const AkUniqueID RPM = 796049864U;
         static const AkUniqueID SIDECHAINRTPC = 3730232882U;
         static const AkUniqueID SNAREREAKTIONRTPC = 3200341508U;

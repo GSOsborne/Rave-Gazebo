@@ -58,6 +58,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	21	CC #20			\CC 0-31\CC #20	
 	22	CC #21			\CC 0-31\CC #21	
 	768774117	ChargeLevel			\Default Work Unit\ChargeLevel	
+	1075330786	PlaybackSpeedRTPC			\Default Work Unit\PlaybackSpeedRTPC	
 
 Modulator Envelope	ID	Name			Wwise Object Path	Notes
 	15520942	Modulator Envelope (Custom)				
@@ -159,6 +160,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	489670902	OGProd_SnareMIDI	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\OGProd_SnareMIDI_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\OGProd\DavisDnB_OGProd_Segment\OGProd_SnareMIDI		186
 	493452572	SidechainMIDI_Funk	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\SidechainMIDI_Funk_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\Funk\DavisDnB_Funk_Segment\SidechainMIDI_Funk		589
 	493653779	CC#17Rand	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\#17RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\RandomDSPMeasure\CC#17Rand		119
+	508746534	RaveGazebo_SlowBass_v1	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\RaveGazebo_SlowBass_v1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\Charleston\DavisDnB_Charleston_Segment\RaveGazebo_SlowBass_v1		2730732
 	511470018	CC#21Rand	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\#21Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\RandomDSPMeasure\CC#21Rand		18
 	511594797	CC#20Rand	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\#20RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\RandomDSPMeasure\CC#20Rand		119
 	514573673	Funk_Sting6	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\Funk_Sting6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WallTriggerSwitch\FunkStinger\Funk_Sting6		9866
@@ -188,6 +190,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	696489017	SidechainMIDI_Squeaker	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\SidechainMIDI_Squeaker_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\Squeaker\DavisDnB_Squeaker_Segment\SidechainMIDI_Squeaker		399
 	720437376	CC#20Rand	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\#20RampUp_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\RandomDSPMeasure\CC#20Rand		119
 	722996484	Sting3	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\Charleston_Sting3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WallTriggerSwitch\CharlestonStinger\Sting3		19666
+	728625553	RaveGazebo_FastBass_v1	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\RaveGazebo_FastBass_v1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\Charleston\DavisDnB_Charleston_Segment\RaveGazebo_FastBass_v1		2508864
 	741214201	Sniper_Sting6	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\Sniper_Sting6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WallTriggerSwitch\SniperStinger\Sniper_Sting6		19666
 	749116649	CC#16Rand	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\#16Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\RandomDSPMeasure\CC#16Rand		119
 	778165503	CC#20Rand	C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\.cache\Windows\SFX\#20Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\DavisDnBBounces\CubeSwitch\RandomDSPMeasure\CC#20Rand		18
