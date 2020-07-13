@@ -69,21 +69,9 @@
 					<ShortName>#16Triangle.mid</ShortName>
 					<Path>SFX\#16Triangle_00000000.wem</Path>
 				</File>
-				<File Id="74921417" Language="SFX">
-					<ShortName>DavisDnB_Charleston_Layer2.wav</ShortName>
-					<Path>SFX\DavisDnB_Charleston_Layer2_8956FC97.wem</Path>
-				</File>
 				<File Id="81898417" Language="SFX">
 					<ShortName>Sniper_Sting2.wav</ShortName>
 					<Path>SFX\Sniper_Sting2_56D34C19.wem</Path>
-				</File>
-				<File Id="83665649" Language="SFX">
-					<ShortName>Charleston_KickMIDI.mid</ShortName>
-					<Path>SFX\Charleston_KickMIDI_00000000.wem</Path>
-				</File>
-				<File Id="84903318" Language="SFX">
-					<ShortName>DavisDnB_Charleston_Layer1.wav</ShortName>
-					<Path>SFX\DavisDnB_Charleston_Layer1_8956FC97.wem</Path>
 				</File>
 				<File Id="109222197" Language="SFX">
 					<ShortName>Funk_KickMIDI.mid</ShortName>
@@ -133,13 +121,13 @@
 					<ShortName>Funk_Sting7.wav</ShortName>
 					<Path>SFX\Funk_Sting7_56D34C19.wem</Path>
 				</File>
+				<File Id="213417481" Language="SFX">
+					<ShortName>Charlie_Layer1.wav</ShortName>
+					<Path>SFX\Charlie_Layer1_8956FC97.wem</Path>
+				</File>
 				<File Id="227846096" Language="SFX">
 					<ShortName>SidechainMIDI_Sniper.mid</ShortName>
 					<Path>SFX\SidechainMIDI_Sniper_00000000.wem</Path>
-				</File>
-				<File Id="228686835" Language="SFX">
-					<ShortName>Charleston_SnareMIDI.mid</ShortName>
-					<Path>SFX\Charleston_SnareMIDI_00000000.wem</Path>
 				</File>
 				<File Id="229705138" Language="SFX">
 					<ShortName>#19Triangle.mid</ShortName>
@@ -172,10 +160,6 @@
 				<File Id="278935672" Language="SFX">
 					<ShortName>Hat1.wav</ShortName>
 					<Path>SFX\Hat1_56D34C19.wem</Path>
-				</File>
-				<File Id="291439471" Language="SFX">
-					<ShortName>DavisDnB_Charleston_Fills.wav</ShortName>
-					<Path>SFX\DavisDnB_Charleston_Fills_8956FC97.wem</Path>
 				</File>
 				<File Id="296813834" Language="SFX">
 					<ShortName>#18Flat.mid</ShortName>
@@ -237,6 +221,10 @@
 					<ShortName>#21Flat.mid</ShortName>
 					<Path>SFX\#21Flat_00000000.wem</Path>
 				</File>
+				<File Id="422143096" Language="SFX">
+					<ShortName>Charlie_Sidechain_Snare.mid</ShortName>
+					<Path>SFX\Charlie_Sidechain_Snare_00000000.wem</Path>
+				</File>
 				<File Id="423287213" Language="SFX">
 					<ShortName>Sniper_Sting5.wav</ShortName>
 					<Path>SFX\Sniper_Sting5_56D34C19.wem</Path>
@@ -269,6 +257,10 @@
 					<ShortName>Sniper_KickMIDI.mid</ShortName>
 					<Path>SFX\Sniper_KickMIDI_00000000.wem</Path>
 				</File>
+				<File Id="485077992" Language="SFX">
+					<ShortName>Charlie_FullSidechain.mid</ShortName>
+					<Path>SFX\Charlie_FullSidechain_00000000.wem</Path>
+				</File>
 				<File Id="489670902" Language="SFX">
 					<ShortName>OGProd_SnareMIDI.mid</ShortName>
 					<Path>SFX\OGProd_SnareMIDI_00000000.wem</Path>
@@ -297,6 +289,10 @@
 					<ShortName>Funk_Sting6.wav</ShortName>
 					<Path>SFX\Funk_Sting6_56D34C19.wem</Path>
 				</File>
+				<File Id="515381447" Language="SFX">
+					<ShortName>Charlie_Layer3.wav</ShortName>
+					<Path>SFX\Charlie_Layer3_8956FC97.wem</Path>
+				</File>
 				<File Id="521731595" Language="SFX">
 					<ShortName>SidechainMIDI_Dholak.mid</ShortName>
 					<Path>SFX\SidechainMIDI_Dholak_00000000.wem</Path>
@@ -304,10 +300,6 @@
 				<File Id="536141369" Language="SFX">
 					<ShortName>#21Flat.mid</ShortName>
 					<Path>SFX\#21Flat_00000000.wem</Path>
-				</File>
-				<File Id="537234495" Language="SFX">
-					<ShortName>DavisDnB_Charleston_Layer3.wav</ShortName>
-					<Path>SFX\DavisDnB_Charleston_Layer3_8956FC97.wem</Path>
 				</File>
 				<File Id="543447063" Language="SFX">
 					<ShortName>#17Triangle.mid</ShortName>
@@ -417,6 +409,10 @@
 					<ShortName>#20Flat.mid</ShortName>
 					<Path>SFX\#20Flat_00000000.wem</Path>
 				</File>
+				<File Id="783203577" Language="SFX">
+					<ShortName>Charlie_Sidechain_Kick.mid</ShortName>
+					<Path>SFX\Charlie_Sidechain_Kick_00000000.wem</Path>
+				</File>
 				<File Id="785679559" Language="SFX">
 					<ShortName>#21Flat.mid</ShortName>
 					<Path>SFX\#21Flat_00000000.wem</Path>
@@ -444,6 +440,10 @@
 				<File Id="837233555" Language="SFX">
 					<ShortName>#18Flat.mid</ShortName>
 					<Path>SFX\#18Flat_00000000.wem</Path>
+				</File>
+				<File Id="843737051" Language="SFX">
+					<ShortName>Charlie_Layer2.wav</ShortName>
+					<Path>SFX\Charlie_Layer2_8956FC97.wem</Path>
 				</File>
 				<File Id="847862564" Language="SFX">
 					<ShortName>DavisDnB_Dholak_Layer1.wav</ShortName>
@@ -541,10 +541,6 @@
 					<ShortName>Dholak_SnareMIDI.mid</ShortName>
 					<Path>SFX\Dholak_SnareMIDI_00000000.wem</Path>
 				</File>
-				<File Id="1014164148" Language="SFX">
-					<ShortName>SidechainMIDI_Charleston.mid</ShortName>
-					<Path>SFX\SidechainMIDI_Charleston_00000000.wem</Path>
-				</File>
 				<File Id="1018005384" Language="SFX">
 					<ShortName>SidechainMIDI_OGProd.mid</ShortName>
 					<Path>SFX\SidechainMIDI_OGProd_00000000.wem</Path>
@@ -576,6 +572,10 @@
 				<File Id="1059073170" Language="SFX">
 					<ShortName>Hat6.wav</ShortName>
 					<Path>SFX\Hat6_56D34C19.wem</Path>
+				</File>
+				<File Id="1068763821" Language="SFX">
+					<ShortName>Charlie_Fills.wav</ShortName>
+					<Path>SFX\Charlie_Fills_8956FC97.wem</Path>
 				</File>
 				<File Id="1069424399" Language="SFX">
 					<ShortName>Dholak_KickMIDI.mid</ShortName>

@@ -3,26 +3,26 @@
 	<Platform GUID="{B2482231-BACC-405A-9605-629184C803D9}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Blast_Wizard" Hash="329012654" Timestamp="1594502707"/>
-				<File Name="Init" Hash="701253476" Timestamp="1594494286"/>
+				<File Name="Blast_Wizard" Hash="3613436156" Timestamp="1594674631"/>
+				<File Name="Init" Hash="701253476" Timestamp="1594674524"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3087870972" Timestamp="1594502707"/>
+				<File Name="" Hash="3409252369" Timestamp="1594674631"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{25EB2318-4774-460C-985B-8D0899A63244}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Blast_Wizard" Hash="329012654" Timestamp="1594502705"/>
-				<File Name="Init" Hash="1609271180" Timestamp="1594494285"/>
+				<File Name="Blast_Wizard" Hash="3613436156" Timestamp="1594674630"/>
+				<File Name="Init" Hash="1609271180" Timestamp="1594674522"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1959379250" Timestamp="1594502705"/>
+				<File Name="" Hash="1757382775" Timestamp="1594674630"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

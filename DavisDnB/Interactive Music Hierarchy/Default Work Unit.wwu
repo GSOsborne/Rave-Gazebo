@@ -85,22 +85,22 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>20</XPos>
+														<XPos>12</XPos>
 														<YPos>0.85</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>30</XPos>
+														<XPos>48</XPos>
 														<YPos>1</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>75.4464285714286</XPos>
+														<XPos>52</XPos>
 														<YPos>1</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>80</XPos>
+														<XPos>87</XPos>
 														<YPos>1.15</YPos>
 														<Flags>0</Flags>
 													</Point>
@@ -421,13 +421,13 @@
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
-																<RTPC Name="" ID="{A0F1FA10-7CFA-4FEF-8AA4-D4379629285F}" ShortID="212956449">
+																<RTPC Name="" ID="{18F99EF6-8688-46F1-B0FB-1E5F86341B99}" ShortID="1027013789">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
 																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
 																		</Reference>
 																	</ReferenceList>
-																	<Curve Name="" ID="{27CE0707-795E-450E-ACB7-C33EE2B83EF4}">
+																	<Curve Name="" ID="{5A4418EA-301A-4A04-8A15-2226C1BA7FE2}">
 																		<PropertyList>
 																			<Property Name="Flags" Type="int32" Value="3"/>
 																		</PropertyList>
@@ -439,22 +439,22 @@
 																			</Point>
 																			<Point>
 																				<XPos>20</XPos>
-																				<YPos>-200</YPos>
+																				<YPos>-96</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>30.02232</XPos>
+																				<XPos>40</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>70</XPos>
+																				<XPos>60</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>80</XPos>
-																				<YPos>-200</YPos>
+																				<YPos>-96</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -824,7 +824,7 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
@@ -959,15 +959,22 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="DavisDnB_Charleston_Layer1" ID="{7469BC6A-4E78-4346-A052-51FC90D1A513}" ShortID="757477060">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="DavisDnB_Charleston_Layer1" ID="{A77ADB20-67A0-45AF-B1F6-0962302B1573}" ShortID="84903318">
+														<AudioFileSource Name="Charlie_Layer1" ID="{9516DA13-8BD1-4DCB-B2CD-2C15B0C3E5E3}" ShortID="213417481">
 															<Language>SFX</Language>
-															<AudioFile>DavisDnB_Charleston_Layer1.wav</AudioFile>
+															<AudioFile>Charlie_Layer1.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1002,13 +1009,40 @@
 													<SequenceList>
 														<MusicTrackSequence Name="" ID="{01D464FE-ADA7-4B37-B2F3-C8704A3BA826}">
 															<ClipList>
-																<MusicClip Name="DavisDnB_Charleston_Layer1" ID="{7E76B4BF-7056-42AE-9556-29E3445E8A6D}">
+																<MusicClip Name="Charlie_Layer1" ID="{9EADA25D-5841-4809-9FB7-3356A40BEC59}">
 																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="28444.4583333333"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="DavisDnB_Charleston_Layer1" ID="{A77ADB20-67A0-45AF-B1F6-0962302B1573}"/>
+																	<AudioSourceRef Name="Charlie_Layer1" ID="{9516DA13-8BD1-4DCB-B2CD-2C15B0C3E5E3}"/>
+																</MusicClip>
+																<MusicClip Name="Charlie_Layer1" ID="{F1181F2A-B8EF-42BC-9A15-0E36178DEDB0}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="7111.11111111111"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Charlie_Layer1" ID="{9516DA13-8BD1-4DCB-B2CD-2C15B0C3E5E3}"/>
+																</MusicClip>
+																<MusicClip Name="Charlie_Layer1" ID="{640D43C1-5F25-4145-B729-E91C62155B25}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Charlie_Layer1" ID="{9516DA13-8BD1-4DCB-B2CD-2C15B0C3E5E3}"/>
+																</MusicClip>
+																<MusicClip Name="Charlie_Layer1" ID="{4DD87CEF-CF9C-4152-807C-71CF74FF2019}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="21333.3333333333"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Charlie_Layer1" ID="{9516DA13-8BD1-4DCB-B2CD-2C15B0C3E5E3}"/>
 																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
@@ -1064,9 +1098,9 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="DavisDnB_Charleston_Layer2" ID="{476C5320-93A6-4733-8907-A44F7C49BA0F}" ShortID="74921417">
+														<AudioFileSource Name="Charlie_Layer2" ID="{54E81E83-2668-493C-A6E5-84418C021504}" ShortID="843737051">
 															<Language>SFX</Language>
-															<AudioFile>DavisDnB_Charleston_Layer2.wav</AudioFile>
+															<AudioFile>Charlie_Layer2.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1101,13 +1135,40 @@
 													<SequenceList>
 														<MusicTrackSequence Name="" ID="{EB6D5359-8FDD-4EC2-B02D-C4087046625B}">
 															<ClipList>
-																<MusicClip Name="DavisDnB_Charleston_Layer2" ID="{0012F0D4-9A7F-4B5F-856A-7B2BD117B791}">
+																<MusicClip Name="Charlie_Layer2" ID="{749A42CE-2E6F-459B-B48A-E8D653263C0A}">
 																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="28444.4583333333"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="DavisDnB_Charleston_Layer2" ID="{476C5320-93A6-4733-8907-A44F7C49BA0F}"/>
+																	<AudioSourceRef Name="Charlie_Layer2" ID="{54E81E83-2668-493C-A6E5-84418C021504}"/>
+																</MusicClip>
+																<MusicClip Name="Charlie_Layer2" ID="{764A4615-474C-4645-B231-2CD270F717E6}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="7111.11111111111"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Charlie_Layer2" ID="{54E81E83-2668-493C-A6E5-84418C021504}"/>
+																</MusicClip>
+																<MusicClip Name="Charlie_Layer2" ID="{1DCD8F1F-265A-49E1-ADCA-7A95A92C9784}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Charlie_Layer2" ID="{54E81E83-2668-493C-A6E5-84418C021504}"/>
+																</MusicClip>
+																<MusicClip Name="Charlie_Layer2" ID="{EAB9A32C-7594-4C2F-84AA-0A3FAB3F0D81}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																		<Property Name="PlayAt" Type="Real64" Value="21333.3333333333"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Charlie_Layer2" ID="{54E81E83-2668-493C-A6E5-84418C021504}"/>
 																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
@@ -1163,9 +1224,9 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="DavisDnB_Charleston_Layer3" ID="{44695D6C-1D7B-4EBF-923A-A13214F08CEE}" ShortID="537234495">
+														<AudioFileSource Name="Charlie_Layer3" ID="{1A8A2DE1-4A94-4204-9C8B-D16B8C0F9C80}" ShortID="515381447">
 															<Language>SFX</Language>
-															<AudioFile>DavisDnB_Charleston_Layer3.wav</AudioFile>
+															<AudioFile>Charlie_Layer3.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1200,13 +1261,13 @@
 													<SequenceList>
 														<MusicTrackSequence Name="" ID="{1A2FEA76-8198-43E3-A351-908463088991}">
 															<ClipList>
-																<MusicClip Name="DavisDnB_Charleston_Layer3" ID="{31864AB0-86A5-457C-AB4B-3686C00D1FC7}">
+																<MusicClip Name="Charlie_Layer3" ID="{86256887-27CD-402E-9361-AEB7F2A79C63}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="28444.4583333333"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="DavisDnB_Charleston_Layer3" ID="{44695D6C-1D7B-4EBF-923A-A13214F08CEE}"/>
+																	<AudioSourceRef Name="Charlie_Layer3" ID="{1A8A2DE1-4A94-4204-9C8B-D16B8C0F9C80}"/>
 																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
@@ -1217,13 +1278,13 @@
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
-																<RTPC Name="" ID="{316A6B4D-AA92-4390-9E75-AD0B7AEC72C5}" ShortID="983371992">
+																<RTPC Name="" ID="{5A8A1B5A-A730-49AD-9847-D227869A5587}" ShortID="352361497">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
 																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
 																		</Reference>
 																	</ReferenceList>
-																	<Curve Name="" ID="{552BDA19-8188-46D6-978D-075B1B3BAB8D}">
+																	<Curve Name="" ID="{00E8376B-6F07-4573-AE43-619EC82F7575}">
 																		<PropertyList>
 																			<Property Name="Flags" Type="int32" Value="3"/>
 																		</PropertyList>
@@ -1239,12 +1300,12 @@
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>30.02232</XPos>
+																				<XPos>40</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>70</XPos>
+																				<XPos>60</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
@@ -1332,9 +1393,9 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="DavisDnB_Charleston_Fills" ID="{39091D6A-5699-424F-B777-018C933271B7}" ShortID="291439471">
+														<AudioFileSource Name="Charlie_Fills" ID="{48C4BD57-6AB0-4CE6-96C7-528271AE1DAC}" ShortID="1068763821">
 															<Language>SFX</Language>
-															<AudioFile>DavisDnB_Charleston_Fills.wav</AudioFile>
+															<AudioFile>Charlie_Fills.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1369,40 +1430,40 @@
 													<SequenceList>
 														<MusicTrackSequence Name="" ID="{06FB0883-DC21-4F0A-AE9F-E6E8E31BA32B}">
 															<ClipList>
-																<MusicClip Name="DavisDnB_Charleston_Fills" ID="{E76A974E-6777-417D-9F89-8BD020AEA23A}">
+																<MusicClip Name="Charlie_Fills" ID="{608582B9-5EC1-4950-9D11-EEDD0A9D9410}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="DavisDnB_Charleston_Fills" ID="{39091D6A-5699-424F-B777-018C933271B7}"/>
+																	<AudioSourceRef Name="Charlie_Fills" ID="{48C4BD57-6AB0-4CE6-96C7-528271AE1DAC}"/>
 																</MusicClip>
-																<MusicClip Name="DavisDnB_Charleston_Fills" ID="{3965E3E3-9B2E-45DF-822E-0CC4A8489271}">
+																<MusicClip Name="Charlie_Fills" ID="{94D666CA-52F4-4663-B087-B1E21239A538}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																		<Property Name="PlayAt" Type="Real64" Value="7111.11111111111"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="DavisDnB_Charleston_Fills" ID="{39091D6A-5699-424F-B777-018C933271B7}"/>
+																	<AudioSourceRef Name="Charlie_Fills" ID="{48C4BD57-6AB0-4CE6-96C7-528271AE1DAC}"/>
 																</MusicClip>
-																<MusicClip Name="DavisDnB_Charleston_Fills" ID="{455010E1-9080-4487-BC52-37AEF18E5D6D}">
+																<MusicClip Name="Charlie_Fills" ID="{30A45FE3-33D7-4E78-93E2-1E2C95C684F9}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="DavisDnB_Charleston_Fills" ID="{39091D6A-5699-424F-B777-018C933271B7}"/>
+																	<AudioSourceRef Name="Charlie_Fills" ID="{48C4BD57-6AB0-4CE6-96C7-528271AE1DAC}"/>
 																</MusicClip>
-																<MusicClip Name="DavisDnB_Charleston_Fills" ID="{2F6D8764-FC8A-4A0D-AA18-53E00BDB9A14}">
+																<MusicClip Name="Charlie_Fills" ID="{07170BAD-EE0E-4D11-A0B6-2B677133F854}">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																		<Property Name="PlayAt" Type="Real64" Value="21333.3333333333"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="DavisDnB_Charleston_Fills" ID="{39091D6A-5699-424F-B777-018C933271B7}"/>
+																	<AudioSourceRef Name="Charlie_Fills" ID="{48C4BD57-6AB0-4CE6-96C7-528271AE1DAC}"/>
 																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
@@ -1431,10 +1492,10 @@
 													<SequenceList>
 														<MusicTrackSequence Name="" ID="{E616E4F5-55B8-4F2D-9071-EEEB1B0D7B86}">
 															<ClipList>
-																<MusicClipMidi Name="SidechainMIDI_Charleston" ID="{BF9543B9-6CEE-4979-90F1-2FBFB226C081}" ShortID="1014164148">
+																<MusicClipMidi Name="Charlie_FullSidechain" ID="{C5996714-F37A-4A60-AB81-2B0AD2752869}" ShortID="485077992">
 																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="28333.3333333333"/>
-																		<Property Name="MidiFileName" Type="string" Value="SidechainMIDI_Charleston.mid"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="28388.8888888889"/>
+																		<Property Name="MidiFileName" Type="string" Value="Charlie_FullSidechain.mid"/>
 																	</PropertyList>
 																</MusicClipMidi>
 															</ClipList>
@@ -1464,10 +1525,10 @@
 													<SequenceList>
 														<MusicTrackSequence Name="" ID="{7F6D9ECF-A795-426A-B154-A0897381ACB6}">
 															<ClipList>
-																<MusicClipMidi Name="Charleston_KickMIDI" ID="{FB8BE5B4-4350-4039-A88E-9FBAD2E27743}" ShortID="83665649">
+																<MusicClipMidi Name="Charlie_Sidechain_Kick" ID="{E61A8013-ADA4-4AD0-8FF7-F5140B4F6E37}" ShortID="783203577">
 																	<PropertyList>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="27388.8888888889"/>
-																		<Property Name="MidiFileName" Type="string" Value="Charleston_KickMIDI.mid"/>
+																		<Property Name="MidiFileName" Type="string" Value="Charlie_Sidechain_Kick.mid"/>
 																	</PropertyList>
 																</MusicClipMidi>
 															</ClipList>
@@ -1497,10 +1558,10 @@
 													<SequenceList>
 														<MusicTrackSequence Name="" ID="{62F9A2C8-BF54-4FE4-AFD0-795480E812B9}">
 															<ClipList>
-																<MusicClipMidi Name="Charleston_SnareMIDI" ID="{908898D7-4E20-4BA0-9F43-576E50CA5B3A}" ShortID="228686835">
+																<MusicClipMidi Name="Charlie_Sidechain_Snare" ID="{D41920FD-9B1A-45AD-B654-B2300B4F5E64}" ShortID="422143096">
 																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="28333.3333333333"/>
-																		<Property Name="MidiFileName" Type="string" Value="Charleston_SnareMIDI.mid"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="28388.8888888889"/>
+																		<Property Name="MidiFileName" Type="string" Value="Charlie_Sidechain_Snare.mid"/>
 																	</PropertyList>
 																</MusicClipMidi>
 															</ClipList>
@@ -1616,7 +1677,7 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
@@ -2027,13 +2088,13 @@
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
-																<RTPC Name="" ID="{89786AB7-F903-4895-82D9-BF25EF95B9C9}" ShortID="646736694">
+																<RTPC Name="" ID="{39F60216-A367-4336-A8BA-849B16D1EFCE}" ShortID="470332630">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
 																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
 																		</Reference>
 																	</ReferenceList>
-																	<Curve Name="" ID="{E3C10A0B-26BD-4AD8-977A-86BFA102985D}">
+																	<Curve Name="" ID="{37036973-590B-4B52-B3DA-DBF197D7444D}">
 																		<PropertyList>
 																			<Property Name="Flags" Type="int32" Value="3"/>
 																		</PropertyList>
@@ -2045,22 +2106,22 @@
 																			</Point>
 																			<Point>
 																				<XPos>20</XPos>
-																				<YPos>-200</YPos>
+																				<YPos>-96</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>30.02232</XPos>
+																				<XPos>40</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>70</XPos>
+																				<XPos>60</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>80</XPos>
-																				<YPos>-200</YPos>
+																				<YPos>-96</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -2500,7 +2561,7 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
@@ -2893,13 +2954,13 @@
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
-																<RTPC Name="" ID="{68B35E5E-4D8B-4251-A443-FD1F3452E786}" ShortID="55257134">
+																<RTPC Name="" ID="{2054C6DF-ABDE-4ABE-A628-3889F7F5DE81}" ShortID="312828522">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
 																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
 																		</Reference>
 																	</ReferenceList>
-																	<Curve Name="" ID="{428893F5-7395-47EB-BB71-EB62E05CE6DC}">
+																	<Curve Name="" ID="{A0CB3CAD-FBE3-4ACA-8C80-CB64F82EDA02}">
 																		<PropertyList>
 																			<Property Name="Flags" Type="int32" Value="3"/>
 																		</PropertyList>
@@ -2911,22 +2972,22 @@
 																			</Point>
 																			<Point>
 																				<XPos>20</XPos>
-																				<YPos>-200</YPos>
+																				<YPos>-96</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>30.02232</XPos>
+																				<XPos>40</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>70</XPos>
+																				<XPos>60</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>80</XPos>
-																				<YPos>-200</YPos>
+																				<YPos>-96</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -3296,7 +3357,7 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
@@ -3689,13 +3750,13 @@
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
-																<RTPC Name="" ID="{ECDC0F08-9B94-4EA2-BEDF-26B849805322}" ShortID="214589716">
+																<RTPC Name="" ID="{EC127249-2C24-4A22-BED1-4E89B64BE760}" ShortID="12000921">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
 																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
 																		</Reference>
 																	</ReferenceList>
-																	<Curve Name="" ID="{95C3EE63-32A4-4778-90CA-0AAA618AE5B6}">
+																	<Curve Name="" ID="{217D8F67-9381-4DE1-B9D6-73C0D6B3554B}">
 																		<PropertyList>
 																			<Property Name="Flags" Type="int32" Value="3"/>
 																		</PropertyList>
@@ -3707,22 +3768,22 @@
 																			</Point>
 																			<Point>
 																				<XPos>20</XPos>
-																				<YPos>-200</YPos>
+																				<YPos>-96</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>30.02232</XPos>
+																				<XPos>40</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>70</XPos>
+																				<XPos>60</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>80</XPos>
-																				<YPos>-200</YPos>
+																				<YPos>-96</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -4126,7 +4187,7 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
@@ -5293,13 +5354,13 @@
 														<Property Name="OverrideOutput" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
-																<RTPC Name="" ID="{7B27CA75-F3A5-4E01-8D01-00C98DAE6A4D}" ShortID="23668424">
+																<RTPC Name="" ID="{2DE8AF6E-2401-473A-AFBB-F46F6C62A4EF}" ShortID="811452918">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
 																			<ObjectRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
 																		</Reference>
 																	</ReferenceList>
-																	<Curve Name="" ID="{C7DD92AC-3EA2-49E9-9B1C-8E15D5C54C02}">
+																	<Curve Name="" ID="{9324EF86-91E8-4E7A-BDE2-A3EFBCAE2A91}">
 																		<PropertyList>
 																			<Property Name="Flags" Type="int32" Value="3"/>
 																		</PropertyList>
@@ -5311,22 +5372,22 @@
 																			</Point>
 																			<Point>
 																				<XPos>20</XPos>
-																				<YPos>-200</YPos>
+																				<YPos>-96</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>30.02232</XPos>
+																				<XPos>40</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>70</XPos>
+																				<XPos>60</XPos>
 																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
 																				<XPos>80</XPos>
-																				<YPos>-200</YPos>
+																				<YPos>-96</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -6001,7 +6062,7 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
