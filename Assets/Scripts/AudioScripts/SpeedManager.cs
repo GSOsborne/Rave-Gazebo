@@ -22,8 +22,27 @@ public class SpeedManager : MonoBehaviour
     {
         Debug.Log("Gonna shift speeds, watch out!");
         StopAllCoroutines();
-        AkSoundEngine.PostEvent("OpenFills", DavisDnB_AudioManager.Instance.gameObject);
+        //AkSoundEngine.PostEvent("OpenFills", DavisDnB_AudioManager.Instance.gameObject);
         StartCoroutine(FadeToNewSpeed(givenRTPCValue));
+        PlaybackSpeed pSpeed;
+        if (givenRTPCValue == 10)
+        {
+            pSpeed = PlaybackSpeed.Slow;
+        }
+        else if(givenRTPCValue == 50)
+        {
+            pSpeed = PlaybackSpeed.Medium;
+        }
+        else if(givenRTPCValue == 90)
+        {
+            pSpeed = PlaybackSpeed.Fast;
+        }
+        else
+        {
+            Debug.Log("I'm confused by these playback speed rtpc values you're sending me!");
+            pSpeed = PlaybackSpeed.Medium;
+        }
+        DavisDnB_AudioManager.Instance.PlaybackSpeedChangeEvent(pSpeed);
     }
 
     IEnumerator FadeToNewSpeed(float targetRTPC)
@@ -34,6 +53,7 @@ public class SpeedManager : MonoBehaviour
         Debug.Log(outrtpc);
         float currentRTPC = outrtpc;
         Debug.Log("Beginning Speed change now.");
+
         for(int i = 0; i <= 10; i++)
         {
             currentRTPC = Mathf.Lerp(outrtpc, targetRTPC, i / 10);

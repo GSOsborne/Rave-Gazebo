@@ -7,8 +7,10 @@ public class ExitSlap : MonoBehaviour
     public enum ExitMode { exitSong, exitExperience };
     public ExitMode exitMode = ExitMode.exitExperience;
 
-    //public GameObject stopSongText;
-    //public GameObject quitAppText;
+    public GameObject stopSongText;
+    public GameObject quitAppText;
+    public Color quitAppColor;
+    public Color stopSongColor;
 
     public float cooldownTime;
     bool cooldownActive;
@@ -17,8 +19,9 @@ public class ExitSlap : MonoBehaviour
     void Start()
     {
         exitMode = ExitMode.exitExperience;
-        //quitAppText.SetActive(true);
-        //stopSongText.SetActive(false);
+        GetComponent<Renderer>().material.color = quitAppColor;
+        quitAppText.SetActive(true);
+        stopSongText.SetActive(false);
 
         DavisDnB_AudioManager.StopAllMusic += SongHasEnded;
         DavisDnB_AudioManager.StartSongEvent += SongHasStarted;
@@ -61,17 +64,19 @@ public class ExitSlap : MonoBehaviour
     public void SongHasStarted(DavisDnB_AudioManager.SongName whichSong)
     {
         Debug.Log("Exit object has switched modes to ending the song!");
-        //quitAppText.SetActive(false);
-        //stopSongText.SetActive(true);
+        quitAppText.SetActive(false);
+        stopSongText.SetActive(true);
         exitMode = ExitMode.exitSong;
+        GetComponent<Renderer>().material.color = stopSongColor;
     }
 
     public void SongHasEnded()
     {
         Debug.Log("Exit object has switched modes to quitting the game!");
-        //quitAppText.SetActive(true);
-        //stopSongText.SetActive(false);
+        quitAppText.SetActive(true);
+        stopSongText.SetActive(false);
         exitMode = ExitMode.exitExperience;
+        GetComponent<Renderer>().material.color = quitAppColor;
 
     }
 

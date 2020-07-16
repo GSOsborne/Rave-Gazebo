@@ -418,6 +418,7 @@
     <Compile Include="Assets\Scripts\Visuals\NoiseAndSizeWithCharge.cs" />
     <Compile Include="Assets\Scripts\Visuals\OutlineColorChange.cs" />
     <Compile Include="Assets\Scripts\Visuals\PersonalMiscellanyShield.cs" />
+    <Compile Include="Assets\Scripts\Visuals\RainbowFadeScript.cs" />
     <Compile Include="Assets\Scripts\Visuals\SaturationWithCharge.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
@@ -625,6 +626,8 @@
     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseUp.cs" />
     <None Include="Assets\Materials\VertexColor.shader" />
     <None Include="Assets\Shaders\OutlineAttempt.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
     <None Include="Assets\WwiseSettings.xml" />
@@ -632,8 +635,10 @@
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Resources\Multiview Stereo.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
     <None Include="Assets\StreamingAssets\desc.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_02.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
     <None Include="Assets\Shaders\AddVertexColors.shader" />
@@ -641,21 +646,34 @@
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBS.shader" />
     <None Include="Assets\Oculus\Avatar\Samples\SocialStarter\README.txt" />
     <None Include="Assets\Oculus\SampleFramework\license.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_CombinedMesh.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_CombinedMeshExpressive.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_PC_SingleComponentExpressive.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_01.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_SingleComponentExpressive.shader" />
     <None Include="Assets\Wwise\Version.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBSV2.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_SingleComponent.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\AvatarEyeLens.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -1235,6 +1253,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{FFF368B7-345C-23E3-6B3E-A0D2DCA3E696}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
       <Project>{86F73DA9-0E42-7550-458D-5B1F42A7436D}</Project>
       <Name>Oculus.VR.Editor</Name>

@@ -10,15 +10,19 @@ public class DavisDnB_AudioManager : MonoBehaviour
 
     public enum SongName { DavisDnB};
 
+    public enum PlaybackSpeed { Slow, Medium, Fast}
+
     public static DavisDnB_AudioManager Instance { get; private set; }
 
     public static event System.Action<MusicLayer> WallTriggerEvent;
     public static event System.Action<SongName> StartSongEvent;
     public static event System.Action StopAllMusic;
+    public static event System.Action<PlaybackSpeed> PlaybackSpeedChange;
 
     public float chargeLevel;
     public float chargeFadeMultiplier;
     public float chargeBoostValue;
+    public PlaybackSpeed currentPlaybackSpeed;
 
     public bool songPlaying;
 
@@ -40,6 +44,7 @@ public class DavisDnB_AudioManager : MonoBehaviour
     void Start()
     {
         songPlaying = false;
+        currentPlaybackSpeed = PlaybackSpeed.Medium;
     }
 
     // Update is called once per frame
@@ -131,7 +136,12 @@ public class DavisDnB_AudioManager : MonoBehaviour
     }
 
 
-
+    public void PlaybackSpeedChangeEvent(PlaybackSpeed givenSpeed)
+    {
+        PlaybackSpeedChange?.Invoke(givenSpeed);
+        Debug.Log("Changing speed to " + givenSpeed);
+        currentPlaybackSpeed = givenSpeed;
+    }
 
 
 
