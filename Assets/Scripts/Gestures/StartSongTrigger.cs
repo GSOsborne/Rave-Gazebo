@@ -6,12 +6,15 @@ using static DavisDnB_AudioManager;
 public class StartSongTrigger : MonoBehaviour
 {
     public float fadeSpeed = 1;
+    public GameObject textToTurnOff;
     CapsuleCollider triggerCollider;
+    MeshRenderer mesh;
     public AK.Wwise.Event startSongEvent;
     // Start is called before the first frame update
     void Start()
     {
         triggerCollider = GetComponent<CapsuleCollider>();
+        mesh = GetComponent<MeshRenderer>();
         StartSongEvent += StartFadeOut;
         StopAllMusic += StartFadeIn;
     }
@@ -52,6 +55,11 @@ public class StartSongTrigger : MonoBehaviour
 
     public IEnumerator FadeOut()
     {
+        triggerCollider.enabled = false;
+        mesh.enabled = false;
+        textToTurnOff.SetActive(false);
+        yield return null;
+        /*
         Debug.Log("Called Fade Out");
         // Assigns the color as the material in the mesh rendere
         Material mat = this.GetComponent<MeshRenderer>().material;
@@ -74,11 +82,17 @@ public class StartSongTrigger : MonoBehaviour
         Debug.Log("End of fade");
 
         //Object.Destroy(this.gameObject);
+        */
     }
 
     public IEnumerator FadeIn()
     {
-        Debug.Log("Called Fade In");
+        triggerCollider.enabled = true;
+        mesh.enabled = true;
+        textToTurnOff.SetActive(true);
+
+        yield return null;
+        /*Debug.Log("Called Fade In");
         Material mat = this.GetComponentInChildren<MeshRenderer>().material;
         Color invisibleColor = mat.color;
         invisibleColor.a = 0f;
@@ -97,5 +111,6 @@ public class StartSongTrigger : MonoBehaviour
 
         //now that done fading, use as collider
         triggerCollider.enabled = true;
+        */
     }
 }

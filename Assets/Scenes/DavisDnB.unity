@@ -5640,17 +5640,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minXTiling: 0.5
   maxXTiling: 2
-  loopXTime: 300
+  loopXTime: 1030
   minYTiling: 0.4
   maxYTiling: 1.7
-  loopYTime: 270
+  loopYTime: 1234
   minXOffset: -0.6
   maxXOffset: 2.1
-  loopXOffsetTime: 568
+  loopXOffsetTime: 1004
   minYOffset: 0.1
   maxYOffset: 2.8
-  loopYOffsetTime: 540
-  minTileMultiplier: 0.4
+  loopYOffsetTime: 1159
+  minTileMultiplier: 0.9
   tileMultiplierDecayFrames: 5
 --- !u!23 &218485237
 MeshRenderer:
@@ -5669,7 +5669,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f52f3c403e8a84342b7fb5e58c11b4f7, type: 2}
+  - {fileID: 2100000, guid: 4a86f2449b9e7714eb367b5a7d833bf0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7260,7 +7260,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &402014843
 MeshRenderer:
@@ -12379,7 +12379,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e1fcc5c3cadc8bc4ebab7a02c007fea4, type: 2}
+  - {fileID: 2100000, guid: b10cb1823f822aa488f4af1cd9608115, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12437,17 +12437,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minXTiling: 0.8
   maxXTiling: 1.6
-  loopXTime: 600
+  loopXTime: 900
   minYTiling: 0.7
   maxYTiling: 2
-  loopYTime: 800
+  loopYTime: 1100
   minXOffset: -2
   maxXOffset: 2
-  loopXOffsetTime: 300
+  loopXOffsetTime: 1000
   minYOffset: -1.5
   maxYOffset: 0.7
-  loopYOffsetTime: 270
-  minTileMultiplier: 0.4
+  loopYOffsetTime: 1200
+  minTileMultiplier: 0.9
   tileMultiplierDecayFrames: 5
 --- !u!114 &408686118
 MonoBehaviour:
@@ -22786,7 +22786,7 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -22837,7 +22837,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23196,17 +23196,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minXTiling: 0.8
   maxXTiling: 2.3
-  loopXTime: 240
+  loopXTime: 860
   minYTiling: 0.5
   maxYTiling: 1.6
-  loopYTime: 300
+  loopYTime: 960
   minXOffset: -0.4
   maxXOffset: 1.9
-  loopXOffsetTime: 460
+  loopXOffsetTime: 1120
   minYOffset: -0.3
   maxYOffset: 2.4
-  loopYOffsetTime: 560
-  minTileMultiplier: 0.4
+  loopYOffsetTime: 1300
+  minTileMultiplier: 0.9
   tileMultiplierDecayFrames: 5
 --- !u!23 &596401925
 MeshRenderer:
@@ -23225,7 +23225,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6f15d54f02d5e8040a5941d6ddea8a22, type: 2}
+  - {fileID: 2100000, guid: f0530f724f3f1c44397675ce70f302ed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28886,7 +28886,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &686232883
 MeshRenderer:
@@ -34354,17 +34354,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minXTiling: 0.7
   maxXTiling: 1.4
-  loopXTime: 400
+  loopXTime: 800
   minYTiling: 0.8
   maxYTiling: 1.5
-  loopYTime: 530
+  loopYTime: 1060
   minXOffset: -1
   maxXOffset: 2
-  loopXOffsetTime: 500
+  loopXOffsetTime: 1090
   minYOffset: 0
   maxYOffset: 2.2
-  loopYOffsetTime: 275
-  minTileMultiplier: 0.4
+  loopYOffsetTime: 970
+  minTileMultiplier: 0.9
   tileMultiplierDecayFrames: 5
 --- !u!23 &851980897
 MeshRenderer:
@@ -34383,7 +34383,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6649387b37453184987ddc99168799d9, type: 2}
+  - {fileID: 2100000, guid: 6470a69d9db60a545ab47ee7b674431c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35736,6 +35736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeSpeed: 1
+  textToTurnOff: {fileID: 1001010307}
   startSongEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -47237,17 +47238,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minXTiling: 0.6
   maxXTiling: 1.8
-  loopXTime: 400
+  loopXTime: 880
   minYTiling: 0.7
   maxYTiling: 1.9
-  loopYTime: 380
+  loopYTime: 770
   minXOffset: -1.5
   maxXOffset: 1.2
-  loopXOffsetTime: 420
+  loopXOffsetTime: 1040
   minYOffset: -0.8
   maxYOffset: 1.5
-  loopYOffsetTime: 325
-  minTileMultiplier: 0.4
+  loopYOffsetTime: 840
+  minTileMultiplier: 0.9
   tileMultiplierDecayFrames: 5
 --- !u!23 &1168944037
 MeshRenderer:
@@ -47266,7 +47267,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 21a76e8410217674c9afc0bc432bd571, type: 2}
+  - {fileID: 2100000, guid: e8c2e6ae7d135af4bacad3d3932066e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -53499,9 +53500,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: 'Quit
 
-    App
-
-'
+    App'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -53570,9 +53569,9 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1316667442}
-    characterCount: 9
+    characterCount: 8
     spriteCount: 0
-    spaceCount: 2
+    spaceCount: 1
     wordCount: 2
     linkCount: 0
     lineCount: 2
@@ -70029,17 +70028,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minXTiling: 0.6
   maxXTiling: 1.5
-  loopXTime: 280
+  loopXTime: 1107
   minYTiling: 0.7
   maxYTiling: 1.4
-  loopYTime: 375
+  loopYTime: 980
   minXOffset: -1.3
   maxXOffset: 0.7
-  loopXOffsetTime: 450
+  loopXOffsetTime: 908
   minYOffset: -0.3
   maxYOffset: 2
-  loopYOffsetTime: 600
-  minTileMultiplier: 0.4
+  loopYOffsetTime: 850
+  minTileMultiplier: 0.9
   tileMultiplierDecayFrames: 5
 --- !u!23 &1594994769
 MeshRenderer:
@@ -70058,7 +70057,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e0402b310582eab4a9747039e1eeb55d, type: 2}
+  - {fileID: 2100000, guid: 8bea872dcc9ce5d4aa65adea13e65dfa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
