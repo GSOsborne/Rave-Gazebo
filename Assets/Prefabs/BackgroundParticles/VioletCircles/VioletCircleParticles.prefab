@@ -4709,11 +4709,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1659991587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26945b4241c390e4da89043e850c51d9, type: 3}
+  m_Script: {fileID: 11500000, guid: ba957e6bd20dc2546a5b0c7a3376a704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minEmission: 20
-  maxEmission: 125
+  minEmission: 5
+  maxEmission: 60
 --- !u!114 &1659991588
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -93,6 +93,7 @@ public class DavisDnB_AudioManager : MonoBehaviour
     public void StartASong(SongName whichSongName)
     {
         StartSongEvent?.Invoke(whichSongName);
+        PlaybackSpeedChangeEvent(PlaybackSpeed.Medium);
         DavisDnBSongStart.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncBar, EveryMeasure);
         Debug.Log("Started Wizard Song!");
         songPlaying = true;

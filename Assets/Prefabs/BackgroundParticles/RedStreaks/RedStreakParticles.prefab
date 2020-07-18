@@ -867,7 +867,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 20
+      scalar: 10
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4709,11 +4709,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1842406165}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26945b4241c390e4da89043e850c51d9, type: 3}
+  m_Script: {fileID: 11500000, guid: ba957e6bd20dc2546a5b0c7a3376a704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minEmission: 20
-  maxEmission: 125
+  minEmission: 10
+  maxEmission: 60
 --- !u!114 &1842406166
 MonoBehaviour:
   m_ObjectHideFlags: 0

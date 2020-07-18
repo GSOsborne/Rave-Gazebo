@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static DavisDnB_AudioManager;
 
 public class GazeTrigger : MonoBehaviour
 {
@@ -25,12 +26,18 @@ public class GazeTrigger : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Gaze"))
+        if (DavisDnB_AudioManager.Instance.songPlaying)
         {
-            StopAllCoroutines();
-            elapsed += Time.fixedDeltaTime;
-            if (elapsed > requiredGazeTime && !pLift.panelRaised) {
-                pLift.RaisePanels();
+
+
+            if (other.gameObject.CompareTag("Gaze"))
+            {
+                StopAllCoroutines();
+                elapsed += Time.fixedDeltaTime;
+                if (elapsed > requiredGazeTime && !pLift.panelRaised)
+                {
+                    pLift.RaisePanels();
+                }
             }
         }
 

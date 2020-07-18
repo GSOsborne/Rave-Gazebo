@@ -415,11 +415,15 @@
     <Compile Include="Assets\Scripts\Visuals\ChangeCameraColor.cs" />
     <Compile Include="Assets\Scripts\Visuals\EmissionWithCharge.cs" />
     <Compile Include="Assets\Scripts\Visuals\LengthScaleWithCharge.cs" />
+    <Compile Include="Assets\Scripts\Visuals\MaterialChangeWithSpeed.cs" />
+    <Compile Include="Assets\Scripts\Visuals\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Visuals\NoiseAndSizeWithCharge.cs" />
     <Compile Include="Assets\Scripts\Visuals\OutlineColorChange.cs" />
     <Compile Include="Assets\Scripts\Visuals\PersonalMiscellanyShield.cs" />
     <Compile Include="Assets\Scripts\Visuals\RainbowFadeScript.cs" />
+    <Compile Include="Assets\Scripts\Visuals\RandomizeTiling.cs" />
     <Compile Include="Assets\Scripts\Visuals\SaturationWithCharge.cs" />
+    <Compile Include="Assets\Scripts\Visuals\TurnOnDuringSpeed.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />
