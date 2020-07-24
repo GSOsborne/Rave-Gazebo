@@ -28635,6 +28635,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: GazeboModel
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 2da7f6343e3d91d48ad847c0cf3c32bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -59609,7 +59649,7 @@ GameObject:
   - component: {fileID: 1412899939}
   - component: {fileID: 1412899938}
   - component: {fileID: 1412899942}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SpeedTriggerPanelTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59627,7 +59667,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
+  m_Size: {x: 1.6, y: 2, z: 1.6}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &1412899939
 MeshRenderer:
@@ -59703,7 +59743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pLift: {fileID: 1775536414}
   requiredGazeTime: 0
-  timeBeforeReset: 2
+  timeBeforeReset: 1
 --- !u!1 &1416045906
 GameObject:
   m_ObjectHideFlags: 0
@@ -86228,7 +86268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1775536413}
   - component: {fileID: 1775536414}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PanelHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

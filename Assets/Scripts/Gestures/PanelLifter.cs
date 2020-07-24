@@ -58,9 +58,9 @@ public class PanelLifter : MonoBehaviour
     IEnumerator ChangeHeight(float desiredY)
     {
         float startingY = thisTransform.position.y;
-        for (float i = 0; i <=100; i++)
+        for (float i = 0; i <=30; i++)
         {
-            thisTransform.position = new Vector3(thisTransform.position.x, Mathf.SmoothStep(startingY, desiredY, i / 100));
+            thisTransform.position = new Vector3(thisTransform.position.x, Mathf.SmoothStep(startingY, desiredY, i / 30));
             //Debug.Log(Mathf.SmoothStep(startingY, desiredY, i / 100));
             yield return new WaitForSeconds(frameTime);
         }
