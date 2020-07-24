@@ -101,7 +101,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4288133506044069190}
-  - component: {fileID: 119408252562981491}
   m_Layer: 0
   m_Name: ToonOutlineContainer
   m_TagString: Untagged
@@ -131,28 +130,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &119408252562981491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810703789142321534}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 378be18a2615f8141a6214fafd17bb49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 6289146079207512390}
-  - {fileID: 6775840747563318261}
-  - {fileID: 3579144415655752564}
-  - {fileID: 1138508980303483145}
-  - {fileID: 6722071026436001013}
-  - {fileID: 3062339905644472519}
-  - {fileID: 8191096921702445976}
-  - {fileID: 4227154422979477041}
-  onDuring: 2
 --- !u!1 &3062339905644472519
 GameObject:
   m_ObjectHideFlags: 0

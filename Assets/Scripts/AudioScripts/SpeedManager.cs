@@ -50,7 +50,7 @@ public class SpeedManager : MonoBehaviour
         float outrtpc;
         int reftype = 1;
         AkSoundEngine.GetRTPCValue("PlaybackSpeedRTPC", null, 0, out outrtpc, ref reftype);
-        Debug.Log(outrtpc);
+        //Debug.Log(outrtpc);
         float currentRTPC = outrtpc;
         Debug.Log("Beginning Speed change now.");
 
