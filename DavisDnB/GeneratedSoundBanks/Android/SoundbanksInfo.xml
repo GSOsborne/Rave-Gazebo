@@ -353,6 +353,10 @@
 					<ShortName>#18Flat.mid</ShortName>
 					<Path>SFX\#18Flat_00000000.wem</Path>
 				</File>
+				<File Id="632211251" Language="SFX">
+					<ShortName>DavisDnB_Squeaker_Layer4.wav</ShortName>
+					<Path>SFX\DavisDnB_Squeaker_Layer4_8956FC97.wem</Path>
+				</File>
 				<File Id="638685664" Language="SFX">
 					<ShortName>#16RampDown.mid</ShortName>
 					<Path>SFX\#16RampDown_00000000.wem</Path>

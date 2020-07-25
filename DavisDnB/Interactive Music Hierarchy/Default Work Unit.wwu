@@ -962,7 +962,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>4</Value>
+																<Value>2</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -1985,7 +1985,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>1</Value>
+																<Value>2</Value>
 															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{8BE2323C-E1FF-40A6-934C-EE4CA5F1B664}" ShortID="1035325723">
@@ -2311,6 +2311,9 @@
 												<MusicTrack Name="DavisDnB_Dholak_Layer4" ID="{B16CB134-8CC0-4044-A5FC-087072EB36DB}" ShortID="708567210">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{9DC54115-60AA-4381-AE5C-F8BB71C50D43}" ShortID="432053098">
 																	<ReferenceList>
@@ -2751,6 +2754,9 @@
 												<MusicTrack Name="DavisDnB_Funk_Layer2" ID="{20B55227-765F-4912-BCA8-D88EC68939B6}" ShortID="923572005">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{25335659-2D98-4C9A-A957-458B3CB3460F}" ShortID="772081737">
 																	<ReferenceList>
@@ -2851,7 +2857,7 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-2</Value>
+																<Value>-1</Value>
 															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{14C36BAD-02DF-48E0-9A3F-6C98341BDAF5}" ShortID="203394919">
@@ -3550,6 +3556,9 @@
 												<MusicTrack Name="DavisDnB_Squeaker_Layer2" ID="{CDAE936F-E18D-4C96-9AA8-D07B5B7DBD13}" ShortID="605559995">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
 															<RTPCList>
 																<RTPC Name="" ID="{AE7F9E10-8D70-4454-82AC-B94006FB4672}" ShortID="722168576">
 																	<ReferenceList>
@@ -3650,13 +3659,13 @@
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
-																<RTPC Name="" ID="{7896B042-B5DF-4064-BB9E-985C63A7EF89}" ShortID="934381539">
+																<RTPC Name="" ID="{20A5A883-400A-4828-8F91-1882B60D01DD}" ShortID="843805496">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
 																			<ObjectRef Name="ChargeLevel" ID="{383340EE-CDD5-4BDB-98BA-576D68596138}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
 																		</Reference>
 																	</ReferenceList>
-																	<Curve Name="" ID="{5003D11A-8DB7-423E-BFEA-5DEA07EA25CF}">
+																	<Curve Name="" ID="{B724C2F4-6A50-4DA2-9F0B-BD8F3AA39755}">
 																		<PropertyList>
 																			<Property Name="Flags" Type="int32" Value="3"/>
 																		</PropertyList>
@@ -3667,13 +3676,13 @@
 																				<Flags>5</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>54.51867</XPos>
+																				<XPos>15.3419</XPos>
 																				<YPos>-200</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
-																				<XPos>65.64336</XPos>
-																				<YPos>0</YPos>
+																				<XPos>25.58812</XPos>
+																				<YPos>-0.111359999999991</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -4252,6 +4261,84 @@
 																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="RaveGazebo_SlowBass_v1" ID="{0516CC3B-DB03-439B-A346-E2911D8DA1EC}"/>
+																</MusicClip>
+															</ClipList>
+														</MusicTrackSequence>
+													</SequenceList>
+												</MusicTrack>
+												<MusicTrack Name="DavisDnB_Squeaker_Layer4" ID="{0EF7F75A-D9C1-47BF-AD4D-EBBA2C243983}" ShortID="1025186613">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+															<RTPCList>
+																<RTPC Name="" ID="{E9D5BAF5-34A4-40FB-B91B-0108462A2305}" ShortID="42891953">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="ChargeLevel" ID="{383340EE-CDD5-4BDB-98BA-576D68596138}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{BA4FCAF8-1191-4983-BB0A-1E265305F813}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>54.5195</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>65.55661</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="DavisDnB_Squeaker_Layer4" ID="{B3E6968F-C93D-4499-B259-06E57AAEBD54}" ShortID="632211251">
+															<Language>SFX</Language>
+															<AudioFile>DavisDnB_Squeaker_Layer4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{30F8183A-B9BF-4EFA-A306-BF9904CA1EF6}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<SequenceList>
+														<MusicTrackSequence Name="" ID="{41A2FC93-7EC5-4EDA-87D0-9F0B613E6C49}">
+															<ClipList>
+																<MusicClip Name="DavisDnB_Squeaker_Layer4" ID="{62610F5D-5667-42DC-8F8C-5AD7454B1771}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="28444.4583333333"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="DavisDnB_Squeaker_Layer4" ID="{B3E6968F-C93D-4499-B259-06E57AAEBD54}"/>
 																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
