@@ -412,11 +412,14 @@
     <Compile Include="Assets\Scripts\Gestures\StartSongTrigger.cs" />
     <Compile Include="Assets\Scripts\Gestures\WallTrigger.cs" />
     <Compile Include="Assets\Scripts\Gestures\WallTriggerBurst.cs" />
+    <Compile Include="Assets\Scripts\GestureTowardsWallsTutorial.cs" />
     <Compile Include="Assets\Scripts\Visuals\BackgroundParticleLayer.cs" />
     <Compile Include="Assets\Scripts\Visuals\ChangeCameraColor.cs" />
     <Compile Include="Assets\Scripts\Visuals\EmissionWithCharge.cs" />
     <Compile Include="Assets\Scripts\Visuals\FadeSharedMaterialOnSpeed.cs" />
+    <Compile Include="Assets\Scripts\Visuals\GradientCycleForever.cs" />
     <Compile Include="Assets\Scripts\Visuals\LengthScaleWithCharge.cs" />
+    <Compile Include="Assets\Scripts\Visuals\MatchColorDuringSpeed.cs" />
     <Compile Include="Assets\Scripts\Visuals\MaterialChangeWithSpeed.cs" />
     <Compile Include="Assets\Scripts\Visuals\NoiseAndSizeWithCharge.cs" />
     <Compile Include="Assets\Scripts\Visuals\OutlineColorChange.cs" />
@@ -427,6 +430,8 @@
     <Compile Include="Assets\Scripts\Visuals\TurnOffWithDelayOnSpeed.cs" />
     <Compile Include="Assets\Scripts\Visuals\TurnOnDuringSpeed.cs" />
     <Compile Include="Assets\Scripts\Visuals\TurnTransparentDuringSpeed.cs" />
+    <Compile Include="Assets\Scripts\Visuals\VaryMaterialDuringSpeed.cs" />
+    <Compile Include="Assets\Scripts\Visuals\VaryToonOutlineColorDuringSpeed.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />

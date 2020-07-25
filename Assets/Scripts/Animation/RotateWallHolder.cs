@@ -13,6 +13,7 @@ public class RotateWallHolder : MonoBehaviour
         animator = GetComponent<Animator>();
         animator.SetBool("MovingPlaybackSpeed", false);
         DavisDnB_AudioManager.PlaybackSpeedChange += CheckToStartMoving;
+        DavisDnB_AudioManager.StopAllMusic += StopTheRotation;
     }
 
     void CheckToStartMoving(PlaybackSpeed givenSpeed)
@@ -25,6 +26,11 @@ public class RotateWallHolder : MonoBehaviour
         {
             animator.SetBool("MovingPlaybackSpeed", false);
         }
+    }
+
+    void StopTheRotation()
+    {
+        animator.SetBool("MovingPlaybackSpeed", false);
     }
 
     // Update is called once per frame

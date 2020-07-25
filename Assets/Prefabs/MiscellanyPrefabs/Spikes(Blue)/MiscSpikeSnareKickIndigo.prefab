@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 8305395992383644545, guid: ae567d0cc11bfbe40a6d8a42f8b25678,
         type: 3}
       propertyPath: m_Name
-      value: MiscSpike
+      value: MiscSpikeSnareKickIndigo
       objectReference: {fileID: 0}
     - target: {fileID: 8305395992383644284, guid: ae567d0cc11bfbe40a6d8a42f8b25678,
         type: 3}
@@ -67,15 +67,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8305395991717611856, guid: ae567d0cc11bfbe40a6d8a42f8b25678,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b24c94491bd69824f85f90f401f55509, type: 2}
     - target: {fileID: 8305395992383644286, guid: ae567d0cc11bfbe40a6d8a42f8b25678,
         type: 3}
       propertyPath: reaktor._name
       value: SnareReaktor
       objectReference: {fileID: 0}
-    - target: {fileID: 8305395991717611856, guid: ae567d0cc11bfbe40a6d8a42f8b25678,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 75443e4f629b50c4dbb44ea018b2b8f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae567d0cc11bfbe40a6d8a42f8b25678, type: 3}
