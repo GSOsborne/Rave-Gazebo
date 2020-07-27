@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3779012230740414}
   - component: {fileID: 3779012231510420}
   - component: {fileID: 3779012232510292}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4487327491998487730}
   - component: {fileID: 4487327491998487731}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: OutlineZag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1783738532069813707}
   - component: {fileID: 8538565846575216920}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ReaktorTransform
   m_TagString: Untagged
   m_Icon: {fileID: 0}

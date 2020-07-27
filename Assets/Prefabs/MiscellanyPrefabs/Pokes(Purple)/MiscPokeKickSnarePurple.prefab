@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8859006572831441555}
   - component: {fileID: 6150398575223277836}
   - component: {fileID: 1093355011718058298}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: MiscPokeHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 6935846252516880384}
   - component: {fileID: 6935846252516880385}
   - component: {fileID: 4124170736234801678}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: MiscPokeKickSnarePurple
   m_TagString: Miscellany
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 6935846253477606546}
   - component: {fileID: 6036976557774835698}
   - component: {fileID: 2113053663765240110}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Poke
   m_TagString: Miscellany
   m_Icon: {fileID: 0}

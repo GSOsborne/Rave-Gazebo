@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2434213797863836169}
   - component: {fileID: 2224639292946673302}
   - component: {fileID: 3847045827266104533}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 8795756509681811537}
   - component: {fileID: 8795756509681811886}
   - component: {fileID: 4145997963244210148}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: MiscSpikeKickSnareCyan
   m_TagString: Miscellany
   m_Icon: {fileID: 0}
@@ -268,18 +268,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2434213797863836169}
     m_Modifications:
-    - target: {fileID: 100000, guid: 69e613a984db439438819fdd9b0668b9, type: 3}
-      propertyPath: m_Name
-      value: spikeyrock2
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 69e613a984db439438819fdd9b0668b9, type: 3}
-      propertyPath: m_TagString
-      value: Miscellany
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 69e613a984db439438819fdd9b0668b9, type: 3}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 69e613a984db439438819fdd9b0668b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -335,6 +323,18 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 69e613a984db439438819fdd9b0668b9, type: 3}
       propertyPath: m_LocalScale.z
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 69e613a984db439438819fdd9b0668b9, type: 3}
+      propertyPath: m_Name
+      value: spikeyrock2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 69e613a984db439438819fdd9b0668b9, type: 3}
+      propertyPath: m_TagString
+      value: Miscellany
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 69e613a984db439438819fdd9b0668b9, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 69e613a984db439438819fdd9b0668b9, type: 3}
       propertyPath: m_Materials.Array.data[0]

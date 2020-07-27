@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4566434477743532381}
   - component: {fileID: 4950106952379853531}
   - component: {fileID: 1302042288507872103}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: MiscConeKickSnareOrange
   m_TagString: Miscellany
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 4566434478632680019}
   - component: {fileID: 4566434478632680018}
   - component: {fileID: 4566434478632680017}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: ConeHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 21f78038a25c384438e9f4b5270ed8d7, type: 3}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 21f78038a25c384438e9f4b5270ed8d7, type: 3}
       propertyPath: m_LocalPosition.x

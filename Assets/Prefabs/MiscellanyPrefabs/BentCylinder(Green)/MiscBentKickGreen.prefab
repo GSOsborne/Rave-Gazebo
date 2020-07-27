@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 61056545420945122}
   - component: {fileID: 61056545420945120}
   - component: {fileID: 7627456201795902082}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: MiscBentKickGreen
   m_TagString: Miscellany
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: b7b663ecd699e5a43af7dac0df569835, type: 3}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b7b663ecd699e5a43af7dac0df569835, type: 3}
       propertyPath: m_LocalPosition.x

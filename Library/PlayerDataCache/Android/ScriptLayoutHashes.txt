@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Builds/July25_BonkersColors.apk
+C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Builds/July27_BackToNormal.apk
 SceneListBegin?
 Assets/Scenes/DavisDnB.unity
 SceneListEnd?

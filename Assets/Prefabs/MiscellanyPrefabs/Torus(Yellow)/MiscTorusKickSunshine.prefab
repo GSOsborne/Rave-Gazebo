@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4733383806814764421}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Displacer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 7530954695348256401}
   - component: {fileID: 6964796322619545725}
   - component: {fileID: 6180965181178462716}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: MiscTorusKickSunshine
   m_TagString: Miscellany
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a72111a0a7bac004eb4db606c76a5250, type: 3}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a72111a0a7bac004eb4db606c76a5250, type: 3}
       propertyPath: m_LocalPosition.x

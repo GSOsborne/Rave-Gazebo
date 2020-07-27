@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4487327491998487730}
   - component: {fileID: 4487327491998487731}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: OutlineCross
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1783738532069813707}
   - component: {fileID: 8538565846575216920}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ReaktorTransform
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 90437072969966867}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Displacement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 1513738444845873697}
   - component: {fileID: 3237193390635032760}
   - component: {fileID: 1277566018141131643}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: MiscCubeSnareMagenta
   m_TagString: Miscellany
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 8148502667396788800}
   - component: {fileID: 8148502667396788815}
   - component: {fileID: 8148502667396788803}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Miscellany
   m_Icon: {fileID: 0}

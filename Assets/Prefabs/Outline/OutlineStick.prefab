@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4602866649042930135}
   - component: {fileID: 6210578313861665957}
   - component: {fileID: 9076055708236423692}
-  m_Layer: 0
-  m_Name: OutlineRight
+  m_Layer: 2
+  m_Name: OutlineStick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
