@@ -161,6 +161,10 @@
 					<ShortName>Hat1.wav</ShortName>
 					<Path>SFX\Hat1_56D34C19.wem</Path>
 				</File>
+				<File Id="286058808" Language="SFX">
+					<ShortName>Charlie_Fills_Updated.wav</ShortName>
+					<Path>SFX\Charlie_Fills_Updated_8956FC97.wem</Path>
+				</File>
 				<File Id="296813834" Language="SFX">
 					<ShortName>#18Flat.mid</ShortName>
 					<Path>SFX\#18Flat_00000000.wem</Path>
@@ -576,10 +580,6 @@
 				<File Id="1059073170" Language="SFX">
 					<ShortName>Hat6.wav</ShortName>
 					<Path>SFX\Hat6_56D34C19.wem</Path>
-				</File>
-				<File Id="1068763821" Language="SFX">
-					<ShortName>Charlie_Fills.wav</ShortName>
-					<Path>SFX\Charlie_Fills_8956FC97.wem</Path>
 				</File>
 				<File Id="1069424399" Language="SFX">
 					<ShortName>Dholak_KickMIDI.mid</ShortName>

@@ -52,7 +52,7 @@
 				<Property Name="Interactive Music\x64_{D4425BC9-AF8D-474D-BC36-E0449D1941C4} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP68z3XD/eEFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAKIlA"/>
 				<Property Name="Interactive Music\x64_{DDD4E654-1EC2-4D00-8827-C81901552D63} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP68z3XD/eEFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{FA2462E8-1C84-4C5C-99C1-8C213CF2B45C} - SegmentEditorZoomInfo" Type="string" Value="VVVVVVVV5T8AAAAAAADwP/b/////eCFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAgHhA"/>
-				<Property Name="Interactive Music\x64_{FAAABA05-B847-4F81-9324-7A478FCF0676} - SegmentEditorZoomInfo" Type="string" Value="UlVVVVVV5T8AAAAAAADwP68z3XD/eEFAAAAAAAAA8D8AAAAAAAAAAAAAAAAA4G9A"/>
+				<Property Name="Interactive Music\x64_{FAAABA05-B847-4F81-9324-7A478FCF0676} - SegmentEditorZoomInfo" Type="string" Value="UlVVVVVV5T8AAAAAAADwP68z3XD/eEFAAAAAAAAA8D8AAAAAAAAAAAAAAAAAkIBA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -141,7 +141,7 @@
 				<Property Name="Music Transition List\{FBF3C023-EB71-44F6-9C9F-2B28D092A7A4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -172,7 +172,7 @@
 				<Property Name="RTPC\GameParameterSimValue\{28387EE3-C13A-4316-B9C3-DB5C521624AF}" Type="Real64" Value="1"/>
 				<Property Name="RTPC\GameParameterSimValue\{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}" Type="Real64" Value="75"/>
 				<Property Name="RTPC\GameParameterSimValue\{2FE18AFE-6D76-4548-B2C3-D85B3A5FA890}" Type="Real64" Value="-22.0039603960396"/>
-				<Property Name="RTPC\GameParameterSimValue\{383340EE-CDD5-4BDB-98BA-576D68596138}" Type="Real64" Value="52"/>
+				<Property Name="RTPC\GameParameterSimValue\{383340EE-CDD5-4BDB-98BA-576D68596138}" Type="Real64" Value="0"/>
 				<Property Name="RTPC\GameParameterSimValue\{3B56F760-15C2-46E5-B9BA-3286E224C6F3}" Type="Real64" Value="-48"/>
 				<Property Name="RTPC\GameParameterSimValue\{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}" Type="Real64" Value="6"/>
 				<Property Name="RTPC\GameParameterSimValue\{7857EC55-766B-4CF1-966A-CF43D3C74CDC}" Type="Real64" Value="-48"/>
@@ -183,7 +183,7 @@
 				<Property Name="RTPC\GameParameterSimValue\{A34890AB-B9D5-4526-A64D-5290C43EF2DC}" Type="Real64" Value="50"/>
 				<Property Name="RTPC\GameParameterSimValue\{AEFCF569-0C96-4569-81D2-16BC5A866B03}" Type="Real64" Value="-47.8"/>
 				<Property Name="RTPC\GameParameterSimValue\{D82EA083-56D3-496E-87CD-E37AA1B2D760}" Type="Real64" Value="-48"/>
-				<Property Name="RTPC\GameParameterSimValue\{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" Type="Real64" Value="100"/>
+				<Property Name="RTPC\GameParameterSimValue\{E3251A5B-1A85-4E4F-98D2-0BCC04132693}" Type="Real64" Value="52"/>
 				<Property Name="RTPC\GameParameterSimValue\{E3B7811A-7B2F-490F-B44F-5FE51B468041}" Type="Real64" Value="75"/>
 				<Property Name="RTPC\GameParameterSimValue\{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}" Type="Real64" Value="75"/>
 				<Property Name="RTPC\GameParameterSimValue\{EA61787F-7024-435E-A3ED-D1EE9CE81548}" Type="Real64" Value="-48"/>

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static DavisDnB_AudioManager;
 
 public class PanelLifter : MonoBehaviour
 {
@@ -9,12 +10,21 @@ public class PanelLifter : MonoBehaviour
     public float frameTime;
     public bool panelRaised;
     float startingTransformY;
+
+    bool panelRecentlySelected;
     // Start is called before the first frame update
     void Start()
     {
         thisTransform = GetComponent<Transform>();
         panelRaised = false;
         startingTransformY = thisTransform.position.y;
+        DavisDnB_AudioManager.PlaybackSpeedChange += ForceLoweringOfPanels;
+        panelRecentlySelected = false;
+    }
+
+    private void OnDestroy()
+    {
+        DavisDnB_AudioManager.PlaybackSpeedChange -= ForceLoweringOfPanels;
     }
 
     // Update is called once per frame
@@ -25,17 +35,24 @@ public class PanelLifter : MonoBehaviour
 
     public void RaisePanels()
     {
-        Debug.Log("Someone is trying to raise the panels!");
-        if (!panelRaised)
+        if (!panelRecentlySelected)
         {
-            Debug.Log("So we're raising the panels now.");
-            StopAllCoroutines();
-            StartCoroutine(ChangeHeight(cameraHeadObject.position.y / .7f));
-            panelRaised = true;
+            Debug.Log("Someone is trying to raise the panels!");
+            if (!panelRaised)
+            {
+                Debug.Log("So we're raising the panels now.");
+                StopAllCoroutines();
+                StartCoroutine(ChangeHeight(cameraHeadObject.position.y / .7f));
+                panelRaised = true;
+            }
+            else
+            {
+                Debug.Log("But they were already raised, dummy");
+            }
         }
         else
         {
-            Debug.Log("But they were already raised, dummy");
+            Debug.Log("Lady??? you haVE TO WAIT!!!");
         }
     }
 
@@ -53,6 +70,20 @@ public class PanelLifter : MonoBehaviour
         {
             Debug.Log("But they were already down, lmao");
         }
+    }
+
+    void ForceLoweringOfPanels(PlaybackSpeed pSpeed)
+    {
+
+        LowerPanels();
+        StartCoroutine(WaitBeforeRaisingPanels());
+    }
+
+    IEnumerator WaitBeforeRaisingPanels()
+    {
+        panelRecentlySelected = true;
+        yield return new WaitForSeconds(1f);
+        panelRecentlySelected = false;
     }
 
     IEnumerator ChangeHeight(float desiredY)

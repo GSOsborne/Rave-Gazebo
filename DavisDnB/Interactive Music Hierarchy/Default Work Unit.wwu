@@ -1393,9 +1393,9 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Charlie_Fills" ID="{48C4BD57-6AB0-4CE6-96C7-528271AE1DAC}" ShortID="1068763821">
+														<AudioFileSource Name="Charlie_Fills_Updated" ID="{B044AEDC-507C-42BB-8589-347BA9729844}" ShortID="286058808">
 															<Language>SFX</Language>
-															<AudioFile>Charlie_Fills.wav</AudioFile>
+															<AudioFile>Charlie_Fills_Updated.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1430,40 +1430,13 @@
 													<SequenceList>
 														<MusicTrackSequence Name="" ID="{06FB0883-DC21-4F0A-AE9F-E6E8E31BA32B}">
 															<ClipList>
-																<MusicClip Name="Charlie_Fills" ID="{608582B9-5EC1-4950-9D11-EEDD0A9D9410}">
+																<MusicClip Name="Charlie_Fills_Updated" ID="{24967096-83D6-42FB-A9C6-22D282E19E21}">
 																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="28444.4583333333"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																	</PropertyList>
-																	<AudioSourceRef Name="Charlie_Fills" ID="{48C4BD57-6AB0-4CE6-96C7-528271AE1DAC}"/>
-																</MusicClip>
-																<MusicClip Name="Charlie_Fills" ID="{94D666CA-52F4-4663-B087-B1E21239A538}">
-																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
-																		<Property Name="FadeInMode" Type="int16" Value="0"/>
-																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="7111.11111111111"/>
-																	</PropertyList>
-																	<AudioSourceRef Name="Charlie_Fills" ID="{48C4BD57-6AB0-4CE6-96C7-528271AE1DAC}"/>
-																</MusicClip>
-																<MusicClip Name="Charlie_Fills" ID="{30A45FE3-33D7-4E78-93E2-1E2C95C684F9}">
-																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
-																		<Property Name="FadeInMode" Type="int16" Value="0"/>
-																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="14222.2222222222"/>
-																	</PropertyList>
-																	<AudioSourceRef Name="Charlie_Fills" ID="{48C4BD57-6AB0-4CE6-96C7-528271AE1DAC}"/>
-																</MusicClip>
-																<MusicClip Name="Charlie_Fills" ID="{07170BAD-EE0E-4D11-A0B6-2B677133F854}">
-																	<PropertyList>
-																		<Property Name="EndTrimOffset" Type="Real64" Value="7111.125"/>
-																		<Property Name="FadeInMode" Type="int16" Value="0"/>
-																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="21333.3333333333"/>
-																	</PropertyList>
-																	<AudioSourceRef Name="Charlie_Fills" ID="{48C4BD57-6AB0-4CE6-96C7-528271AE1DAC}"/>
+																	<AudioSourceRef Name="Charlie_Fills_Updated" ID="{B044AEDC-507C-42BB-8589-347BA9729844}"/>
 																</MusicClip>
 															</ClipList>
 														</MusicTrackSequence>
