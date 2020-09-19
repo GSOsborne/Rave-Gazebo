@@ -415,8 +415,13 @@
     <Compile Include="Assets\Scripts\Gestures\WallTrigger.cs" />
     <Compile Include="Assets\Scripts\Gestures\WallTriggerBurst.cs" />
     <Compile Include="Assets\Scripts\GestureTowardsWallsTutorial.cs" />
+    <Compile Include="Assets\Scripts\MeshCombinerEditor.cs" />
+    <Compile Include="Assets\Scripts\MeshCombinerScript.cs" />
+    <Compile Include="Assets\Scripts\MeshSaverEditor.cs" />
     <Compile Include="Assets\Scripts\Visuals\BackgroundParticleLayer.cs" />
     <Compile Include="Assets\Scripts\Visuals\ChangeCameraColor.cs" />
+    <Compile Include="Assets\Scripts\Visuals\ControllerCageToggle.cs" />
+    <Compile Include="Assets\Scripts\Visuals\ControllerVisualFeedback.cs" />
     <Compile Include="Assets\Scripts\Visuals\EmissionWithCharge.cs" />
     <Compile Include="Assets\Scripts\Visuals\FadeSharedMaterialOnSpeed.cs" />
     <Compile Include="Assets\Scripts\Visuals\GradientCycleForever.cs" />
