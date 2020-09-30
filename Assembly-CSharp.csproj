@@ -392,6 +392,7 @@
     <Compile Include="Assets\Reaktion\Utility\TurbulentMotion.cs" />
     <Compile Include="Assets\Reaktion\Utility\VariableMotion.cs" />
     <Compile Include="Assets\Scripts\ActivateAllDisplays.cs" />
+    <Compile Include="Assets\Scripts\Animation\ChargeBar.cs" />
     <Compile Include="Assets\Scripts\Animation\DeleteOnOtherColor.cs" />
     <Compile Include="Assets\Scripts\Animation\PlayOnCorrectColor.cs" />
     <Compile Include="Assets\Scripts\Animation\RandomizeStartingRotation.cs" />
@@ -406,6 +407,7 @@
     <Compile Include="Assets\Scripts\Gestures\BurstOnGesture.cs" />
     <Compile Include="Assets\Scripts\Gestures\ControllerVelocityColorChange.cs" />
     <Compile Include="Assets\Scripts\Gestures\ExitSlap.cs" />
+    <Compile Include="Assets\Scripts\Gestures\GazeForExitSongObject.cs" />
     <Compile Include="Assets\Scripts\Gestures\GazeTrigger.cs" />
     <Compile Include="Assets\Scripts\Gestures\GestureTracking.cs" />
     <Compile Include="Assets\Scripts\Gestures\PanelLifter.cs" />
@@ -420,6 +422,7 @@
     <Compile Include="Assets\Scripts\MeshSaverEditor.cs" />
     <Compile Include="Assets\Scripts\Visuals\BackgroundParticleLayer.cs" />
     <Compile Include="Assets\Scripts\Visuals\ChangeCameraColor.cs" />
+    <Compile Include="Assets\Scripts\Visuals\ChargeBarColorChange.cs" />
     <Compile Include="Assets\Scripts\Visuals\ControllerCageToggle.cs" />
     <Compile Include="Assets\Scripts\Visuals\ControllerVisualFeedback.cs" />
     <Compile Include="Assets\Scripts\Visuals\EmissionWithCharge.cs" />

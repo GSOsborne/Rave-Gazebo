@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Builds/Sept19_VibrantControllers.apk
+C:/Users/gsosb/Documents/Game Projects/DavisDnBSong/Builds/Sept30_LastOfTheFeedback.apk
 SceneListBegin?
 Assets/Scenes/RaveGazebo_PostFeedback.unity
 SceneListEnd?
@@ -127,6 +127,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 94c46d109e785de85c1d83765b7f67f5 Assembly-CSharp.dll:.SpeedTriggerPanel
+a4fadbec5ac37b171ae996397b7136c7 Assembly-CSharp.dll:.ChargeBar
 c51d2a1569bb404a12e837742887b609 Oculus.VR.dll:.OVRPlayerController
 558b301491aa906446760eed78a170c5 Oculus.VR.dll:.OVRAudioSourceTest
 d29554da4f32756eaad6ec0d568c5648 Assembly-CSharp.dll:.OvrAvatarSDKManager
@@ -175,9 +176,11 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 5228f0957b104e148b7af370c4e6755e Assembly-CSharp.dll:.DavisDnB_AudioManager
 caf27b6b72eb1c27445495431511c61a Oculus.VR.dll:.OVRControllerHelper
+74d184aa1608bfbd19908d868584af80 Assembly-CSharp.dll:.ChargeBarColorChange
 71bb6a6b6c8f052f948db64c7dd3ca4f Oculus.VR.dll:.OVRResources
 9337d9b49ef69a8f6b3c9e840a9d2fe6 Assembly-CSharp.dll:OculusSampleFramework.GrabbableCrosshair
 f390b378a59bb73385bc3f0ca6424e69 Assembly-CSharp.dll:.AkState
+b5bf2978b1c1b64bb633c67aebb3b887 Assembly-CSharp.dll:.GazeForExitSongObject
 bec9ed15d6dda7b1eba4ab613b777188 Assembly-CSharp.dll:Reaktion.AudioInjector
 1b67d4bb4648cb7d784398ebb0539b1b Assembly-CSharp.dll:Oculus.Platform.Samples.VrBoardGame.GameController
 b91c8e6d466992f4dca9529697a7a59e Assembly-CSharp.dll:.ONSPSettings
